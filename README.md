@@ -1,3 +1,4 @@
-# Custom-Server-Pack
+#SlayerCraft
 
-Server Configs for our Custom packs.
+Prototype pack buildling
+Upload config options here so we can do pull requests.
