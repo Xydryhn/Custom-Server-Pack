@@ -1,6 +1,11 @@
+# Ignore everything by default
 /*
+
+# We do want config and scripts, though
 !/config
 !/scripts
+
+# These files should be here too
 !/README.md
 !/changelog.txt
 !/SlayerCraft
