@@ -1,0 +1,11 @@
+0.1.0
+-Added Pam's Harvestcraft
+-Added Lycanites
+
+0.0.1
+-Lowered Battle tower spawn rate
+-Increased Distance from spawn that Battle Towers Appear
+-Disabled Forestry Copper & Tin
+-Disabled Duplicate Embers Ores
+-Disabled Duplicate Immersive Engineering Ores
+-Partially Unified Tinkers & Immersive engineering's ores and ingots to default over to Thermal Foundation
