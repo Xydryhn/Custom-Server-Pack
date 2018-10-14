@@ -1,10 +1,10 @@
 {
   "name": "eechetik",
   "class": "com.lycanitesmobs.elementalmobs.entity.EntityEechetik",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [],
     "disableSubspecies": false,
     "dimensionIds": [],
