@@ -1,3 +1,10 @@
+0.2.0
+-Added CUstom Starting Gear
+-Added Abyssalcraft And Abyssalcraft Integrations
+
+0.1.1
+-REmoved just the tips (Didnt perform as needed)
+-Disabled Carry on for Better With Mods
 0.1.0
 -Added Pam's Harvestcraft
 -Added Lycanites
