@@ -2,11 +2,19 @@
   "name": "skyhigh",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 4,
   "ignoreBiomes": false,
   "ignoreLightLevel": true,
-  "conditions": [],
+  "conditions": [
+    {
+      "type": "world",
+      "dimensionIds": [
+        0, 1
+      ],
+      "dimensionListType": "whitelist"
+    }
+  ],
   "triggers": [
     {
       "type": "world",

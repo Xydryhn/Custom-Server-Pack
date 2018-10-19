@@ -2,7 +2,7 @@
   "name": "portal",
   "type": "spawner",
   "enabled": false,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
