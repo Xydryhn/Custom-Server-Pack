@@ -9,7 +9,22 @@ See PainterPaintSources_Core.xml for documentation.
   </whitelist>
 
   <blacklist>
-
+	<itemStack modID="embers" itemName="ore_copper" itemMeta="0" />
+	<itemStack modID="embers" itemName="ore_lead" itemMeta="0" />
+	<itemStack modID="embers" itemName="ore_silver" itemMeta="0" />
+	<itemStack modID="embers" itemName="ore_quartz" itemMeta="0" />
+	
+    <itemStack modID="forestry" itemName="resources" itemMeta="1" /><!-- copper ore -->
+    <itemStack modID="forestry" itemName="resources" itemMeta="2" /><!-- tin ore -->
+	<itemStack modID="forestry" itemName="resource_storage" itemMeta="1" /><!-- copper block -->
+	<itemStack modID="forestry" itemName="resource_storage" itemMeta="2" /><!-- tin block -->
+	<itemStack modID="forestry" itemName="resource_storage" itemMeta="3" /><!-- bronze block -->
+	
+	<itemStack modID="immersiveengineering" itemName="ore" itemMeta="0"><!-- copper ore -->
+	<itemStack modID="immersiveengineering" itemName="ore" itemMeta="1"><!-- bauxite ore -->
+	<itemStack modID="immersiveengineering" itemName="ore" itemMeta="2"><!-- lead ore -->
+	<itemStack modID="immersiveengineering" itemName="ore" itemMeta="3"><!-- silver ore -->
+	<itemStack modID="immersiveengineering" itemName="ore" itemMeta="4"><!-- nickel ore -->
   </blacklist>
 
 </PainterPaintSources>
