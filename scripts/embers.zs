@@ -327,7 +327,11 @@ anySilverIngot.remove(silverIngot);
 //<ore:nuggetLead>.remove(leadNugget);
 //<ore:nuggetSilver>.remove(silverNugget);
 
+Mixer.add(moltenConstantan * 2, [moltenCopper * 1, moltenNickel * 1]);
 Mixer.add(moltenBronze * 4, [moltenCopper * 3, moltenTin * 1]);
+Mixer.add(moltenElectrum * 2, [moltenGold * 1, moltenSilver * 1]);
+Mixer.add(moltenAluminumBrass * 4, [moltenAluminum * 3, moltenCopper * 1]);
+Mixer.add(moltenManyullyn * 1, [moltenArdite * 1, moltenCobalt * 1]);
 
 Melter.add(moltenAluminum * 288, anyAluminumOre);
 Melter.add(moltenAluminum * 144, anyAluminumIngot);
