@@ -138,7 +138,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 4
 			},
-			"cluster-count": 2,
+			"cluster-count": 1,
 			"min-height": 5,
 			"max-height": 20,
 			"retrogen": "true",
@@ -147,8 +147,32 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
-					1
+					1,
+					6
 				]
+			}
+		},
+		"nickel_mining": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "nickel"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 2,
+			"min-height": 5,
+			"max-height": 20,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [6, 50, 51, 52, 52]
 			}
 		},
 		"platinum": {
@@ -180,11 +204,8 @@
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
+				"restriction": "whitelist",
+				"value": [6, 50, 51, 52, 53]
 			}
 		},
 		"copper_ocean": {
