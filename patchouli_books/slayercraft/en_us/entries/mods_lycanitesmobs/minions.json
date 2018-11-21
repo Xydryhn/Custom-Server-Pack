@@ -1,0 +1,26 @@
+{
+	"name": "Summoning Minions",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "What's better than getting rid of the mob infestation in your house? Having them work for you instead! Many Lycanites Mobs monsters can be summoned using the $(item)Summoning Staff$() once you get to know them well enough.$(p)Once you have been able to slay a monster, it will be added to the list of summonable monsters (if it is summonable)."
+		},
+		{
+			"type": "crafting",
+			"recipe": "lycanitesmobs:summoningstaff",
+			"recipe2": "lycanitesmobs:bloodsummoningstaff"
+		},
+		{
+			"type": "text",
+			"text": "To summon a monster using the summoning staff, you need to select a monster first. Pressing $(k:Summoning) will show the summoning interface, from which up to 5 different monsters can be selected for summoning, as well as their settings. Or alternatively, press $(k:Beastiary) and go to the Summoning tab. To choose which one of the selected monsters you wish to summon, press $(k:Minion Selection)."
+		},
+		{
+			"type": "text",
+			"text": "Once the $(item)Summoning Staff$() has been setup, you can press and hold right-click with the staff in hand to perform the actual summoning. The longer you hold right-click, the more minions you will summon. Release the button to finish the spawn. Keep in mind that summoning minions requires summoning focus (shown above your food back), which will replenish gradually over time. Also, the minion will only stay with you for a short time."
+		}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"name": "Compression Dynamo",
+	"icon": "thermalexpansion:dynamo:2",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(thing)Compression Dynamo$() generates electricity from liquid fuel and coolant. Its maximum output is 40-120 RF/t depending on the tier."
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:dynamo_2",
+			"text": "Raw materials required: 6 $(item)Tin Ingots$(), 2 $(item)Iron Ingots$(), 3 $(item)Redstone$() and a $(item)Silver Ingot$()."
+		},
+		{
+			"type": "text",
+			"title": "Fuels",
+			"text": "The following fuels can be used in a $(thing)Compression Dynamo$():$(li)$(item)Creosote Oil$(): 40 000 RF$(li)$(item)Seed Oil$(): 80 000 RF$(li)$(item)Liquifacted Coal$(): 400 000 RF$(li)$(item)Crude Oil$(): 400 000 RF$(li)$(item)Tree Oil$(): 400 000 RF$(li)$(item)Grassoline$(): 800 000 RF$(li)$(item)Naphtha$(): 1 000 000 RF$(li)$(item)Refined Fuel$(): 1 500 000 RF$(li)$(item)Canola Oil$(): 80 000 RF$(li)$(item)Oil$(): 400 000 RF$(li)$(item)Crystallized Oil$(): 400 000 RF$(li)$(item)Empowered Oil$(): 700 000 RF$(li)$(item)Hootch$(): 300 000 RF"
+		},
+		{
+			"type": "text",
+			"text": "$(li)$(item)Fire Water$(): 750 000 RF$(li)$(item)Rocket Fuel$(): 1 000 000 RF$(li)$(item)Ethanol$(): 500 000 RF$(li)$(item)Biodiesel$(): 500 000 RF$(li)$(item)Crude Oil$(): 400 000 RF$(li)$(item)Diesel$(): 800 000 RF$(li)$(item)Gasoline$(): 1 200 000 RF"
+		},
+		{
+			"type": "text",
+			"title": "Coolants",
+			"text": "$(thing)Compression Dynamos$() need a coolant to operate. This coolant can be $(item)Water$(), $(item)Gelid Cryotheum$() or $(item)Crushed Ice$(). One bucket of water will last for 250 000 RF. Using $(item)Gelid Cryotheum$() as coolant will give a +40% fuel bonus and lasts 3&nbsp;000&nbsp;000 RF. Using Crushed Ice will result in a +20% fuel bonus and last for 1&nbsp;500&nbsp;000 RF."
+		},
+		{
+			"type": "text",
+			"text": "The speed at which energy is generated and fuel is consumed depends on how much power can be emitted, and on the dynamo's maximum power output. A basic $(thing)Compression Dynamo$() has a maximum power output of 40 RF/t. This can be increased by upgrading the dynamo to a higher tier, and by installing certain augments."
+		},
+		{
+			"type": "text",
+			"text": "When an active steam dynamo cannot emit the energy it generates, it will keep working at its minimum power output (a tenth of its maximum power output). Any more energy that is generated in this case is lost. This can be resolved by installing an $(item)Excitation Field Limiter$()."
+		},
+		{
+			"type": "text",
+			"title": "Tiers",
+			"text": "Steam dynamos come in six tiers. These have the following power output limits and augment slots:$(li)Basic: 40 RF/t, no augments$(li)Hardened: 60 RF/t, 1 slot$(li)Reinforced: 80 RF/t, 2 slots$(li)Signalum: 100 RF/t, 3 slots$(li)Resonant: 120 RF/t, 4 slots"
+		},
+		{
+			"type": "text",
+			"title": "Augments",
+			"text": "The following augments can be installed in a $(thing)Compression Dynamo$() to improve it:$(li)$(l:mods_thermalexpansion/auxiliary_transmission_coil)Auxiliary Transmission Coil$()$(li)$(l:mods_thermalexpansion/fuel_catalyzer)Fuel Catalyzer$()$(li)$(l:mods_thermalexpansion/transmission_coil_ducting)Transmission Coil Ducting$()$(li)$(l:mods_thermalexpansion/excitation_field_limiter)Excitation Field Limiter$()$(li)$(l:mods_thermalexpansion/boiler_conversion)Boiler Conversion$()$(li)$(l:mods_thermalexpansion/closed_loop_cooling)Closed-Loop Cooling$()$(li)$(l:mods_thermalexpansion/ignition_plugs)Ignition Plugs$()$(li)$(l:mods_thermalexpansion/agitative_manifold)Turbine Conversion$()$(p)Note that the number of augments is limited by the dynamo's tier."
+		}
+	]
+}

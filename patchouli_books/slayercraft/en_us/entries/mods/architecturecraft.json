@@ -1,0 +1,62 @@
+{
+	"name": "Architecturecraft",
+	"icon": "architecturecraft:sawbench",
+	"category": "mods",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(l:https://minecraft.curseforge.com/projects/architecturecraft-elytradev)Architecturecraft$() allows you to cut down blocks in various shapes, allowing you to build you next fancy thing! It contains shapes for slopes, roofs, round blocks, arches, window frames, railings, pillars and much more!"
+		},
+		{
+            "type": "crafting",
+            "text": "Everything starts with a $(thing)Sawbench$(). This block allows you to craft all other blocks in this mod.",
+            "recipe": "architecturecraft:tile.architecturecraft.sawbench0"
+        },
+		{
+            "type": "crafting",
+            "text": "",
+            "recipe": "architecturecraft:item.architecturecraft.sawblade1",
+            "recipe2": "architecturecraft:item.architecturecraft.largepulley2"
+        },
+		{
+			"type": "text",
+			"text": "To cut blocks, place them in the input slot in the $(thing)Sawbench$() and choose the shape you wish to cut it into. Then grab the resulting blocks from the output slot.$(br2)Once cut, these blocks can be placed on the floor, on ceilings or on the side of other blocks."
+		},
+		{
+			"type": "text",
+			"text": "Blocks can also be rotated in the right direction by looking at one of the sides or corners of the block you are placing the shape on. Looking at the north edge of a surface will make the block point north, for instance; or placing a corner in the northwest corner of a surface will make the corner oriented northwest."
+		},
+        {
+            "type": "spotlight",
+            "title": "Hammer",
+            "text": "The $(item)Hammer$() can be used to rotate a block, or to place it to another side of the block. Right-clicking with a $(item)Hammer$() on a shaped block will rotate it, and sneak right-clicking will instead turn it to another direction. This allows for ArchitectureCraft Slabs to be placed sideways, for instance.",
+            "item": "architecturecraft:hammer"
+        },
+		{
+			"type": "spotlight",
+			"title": "Cladding",
+			"text": "$(thing)Cladding$() can be used to make the surface of a shaped block use the texture of another block. This does not work with all blocks, but it does work with slopes, slabs and some other shapes. $(thing)Cladding$() is made with the $(thing)Sawbench$() and can be applied by right-clicking a shape block while holding the cladding in your hand.",
+			"item": "architecturecraft:cladding:2{block:'minecraft:sandstone'}"
+		},
+		{
+			"type": "spotlight",
+			"title": "Windows",
+			"text": "$(thing)Window frames$() can be cut from any block as well and placed in the world. $(thing)Glass$() (either $(item)Glass Pane$() or $(item)Colored Glass Panes$()) can be placed inside the frame by right-clicking. Note that modded glass won't work here.",
+			"item": "architecturecraft:shape{Shape:30,BaseName:'minecraft:planks',BaseData:0}"
+		},
+		{
+			"type": "spotlight",
+			"title": "Chisel",
+			"text": "$(thing)Window frames$() by default fully connect to each other. However, if you wish to make shapes out of the window, you can right-click with a $(item)Chisel$() on any border between two $(thing)Window frames$() to create an edge in between.$(br2)As a secondary function, $(item)Chisels$() can also be used to remove $(thing)Cladding$() from a block.",
+			"item": "architecturecraft:chisel"
+		},
+		{
+            "type": "crafting",
+            "text": "",
+            "recipe": "architecturecraft:item.architecturecraft.hammer4",
+            "recipe2": "architecturecraft:item.architecturecraft.chisel3"
+        }
+	]
+}

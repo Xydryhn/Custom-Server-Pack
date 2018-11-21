@@ -1,0 +1,23 @@
+{
+	"name": "Lapidary Calibration",
+	"icon": "thermalexpansion:augment:704",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "A $(thing)Lapidary Calibration$() augment allows for a  $(l:mods_thermalexpansion/numismatic_dynamo)Numismatic Dynamo$() to use use various gemstones as fuel, and increases the amount of Redstone Flux it generates by 25%. The dynamo will only accept compatible gemstones."
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:augment_38"
+		},
+		{
+			"type": "text",
+			"title": "Fuels",
+			"text": "The following items are accepted as fuel in a $(thing)Numismatic Dynamo$() with $(thing)Lapidary Calibration$():$(li)$(item)Nether Quartz$(): 40 000 RF$(li)$(item)Lapis Lazuli$(): 80 000$(li)$(item)Prismarine Shard$(): 150 000RF$(li)$(item)Emerald$(): 200 000 RF$(li)$(item)Diamond$(): 1 200 000 RF$(li)$(item)Flux Crystal$(): 1 500 000 RF$(li)$(item)Apatite$(): 40 000 RF"
+		}
+	]
+}

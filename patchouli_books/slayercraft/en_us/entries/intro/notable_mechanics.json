@@ -1,0 +1,48 @@
+{
+	"name": "Notable Mechanics",
+	"icon": "minecraft:writable_book",
+	"category": "intro",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The modpack contains a few mods that slightly change some of the mechanics in the game; these are explained here for your awareness."
+		},
+		{
+			"type": "text",
+			"title": "Graves",
+			"text": "In this pack, you will inevitably die. No worries though, since whatever you had with you will still be in a grave, and your death position will be marked on the map. Getting there can be a challenge, but at least your things won't despawn! A grave will be generated even if you fall into the void, in which case it will end up at height Y=1."
+		},
+		{
+			"type": "text",
+			"title": "Fence Jumping",
+			"text": "You can jump over fences. To do so, simply stand in front of a fence and jump - you'll jump somewhat higher than normal. Don't worry about your animal farm: only players can do this!"
+		},
+		{
+			"type": "text",
+			"title": "Nether Portal Fix",
+			"text": "Tired of going back through your Nether Portal and then ending up in an different place? A solution has been added, so this should no longer happen. You'll always end up back at the portal you came through at the first place. No more nasty surprises!"
+		},
+		{
+			"type": "text",
+			"title": "Slab Placement",
+			"text": "Thanks to Klee Slabs, when placing slabs next to an existing wall, you can choose whether to place it in the top or bottom half of the block: if the mouse is pointing to the top half of the side of a block, the slab will be placed upside down."
+		},
+		{
+			"type": "text",
+			"title": "Sleeping",
+			"text": "SlayerCraft contains the Morpheus mod, which provides a new sleeping mechanic: if most of the players in the server want to sleep, the day will pass. Additionally, if you end up stuck in a bed after sleeping, you can kick yourself from the server so you can re-join without having to wait."
+		},
+		{
+			"type": "text",
+			"title": "Ore Excavation",
+			"text": "If a tool is enchanted with an $(thing)Excavate Enchantment$(), it can be used to excavate entire ore veins or chop complete trees. Higher Excavate levels will allow more blocks to be excavated. To excavate, press and hold $(k:oreexcavation.key.excavate) and mine one of the blocks. To switch shape, press $(k:oreexcavation.key.shape)."
+		},
+		{
+			"type": "text",
+			"title": "Carry It!",
+			"text": "Blocks such as vanilla spawners, chests, ... can be grabben, even though they cannot be mined normally. To do so, press and hold $(k:carry.desc) and right-click the block. This functionality is provided by the $(thing)Carry On$() mod."
+		}
+	]
+}

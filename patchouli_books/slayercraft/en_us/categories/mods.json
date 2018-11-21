@@ -1,0 +1,6 @@
+{
+	"name": "Mods",
+	"description": "Introduction to the mods available in this game. Each mod contains a short guide explaining how to get started with the respective mod. Most mods have a manual as well for more detail.",
+	"icon": "tconstruct:book",
+	"sortnum": 1
+}

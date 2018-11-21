@@ -1,0 +1,18 @@
+{
+	"name": "Woot",
+	"icon": "woot:controller",
+	"category": "mods",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Woot allows you to spawn and kill monsters efficiently. By creating a multiblock factory, you can have it internally spawn monsters, kill them, and collect the drops. To read more about this mod, read the $(item)Woot Guide$()."
+		},
+		{
+			"type": "text",
+			"title": "Mob factories",
+			"text": "Mob factories are the central multiblock in this mod, allowing you to farm mobs with a simple setup (and low server load). Each factory is programmed to spawn and kill a single mob. However, modifying a factory to spawn a different monster simply means replacing the Factory Controller with another one."
+		}
+	]
+}

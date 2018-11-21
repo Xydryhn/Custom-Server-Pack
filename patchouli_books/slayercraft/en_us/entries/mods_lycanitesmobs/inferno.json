@@ -1,0 +1,84 @@
+{
+	"name": "Lycanites: Inferno",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Never leave fire and lava unattended for creatures of flame will be born! Inferno creatures are found in extremely hot areas, usually directly from lava lakes, very common in the Nether also."
+		},
+		{
+			"type": "empty"
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "infernomobs:lobber",
+			"text": "Drops $(item)Coal$(), $(item)Blaze Powder$(), $(item)Magma Cream$(), $(item)Magma Charge$()."
+        },
+		{
+			"type": "text",
+			"text": "Large deadly golems made of hot lava, they only spawn in large lava lakes. $(thing)Lobbers$() will throw large balls of lava at their opponent, these attacks deal a lot of damage, but are slow. The balls of lava will create temporary blocks of lava on impact should they miss you so take care! $(thing)Lobbers$() will walk onto land but will die if they are out of lava for too long, however beware their trail of flames as not only can they easily burn you but they will attract $(thing)Cinders$() too!"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "infernomobs:cephignis",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large fish that live in lava! $(thing)Cephignis$() can be lured and farmed using $(item)coal$() or $(item)charcoal$()!$(br2)Drops $(item)Cooked Cephignis Meat$(), $(item)Magma Cream$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.4,
+            "entity": "infernomobs:afrit",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Wicked fire imps normally found bathing in lava. They throw balls of scorchfire which ignites and applies penetration. Can be tamed with an $(item)Afrit Treat$() making great pets!$(br2)Drops $(item)Scorchfire Charge$(), $(item)Coal$(), $(item)Blaze Rods$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "infernomobs:khalk",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large magma beasts known for their incredible defense and deadly offsense. On death, their bodies break down into lava!$(br2)Can be summoned. Drops $(item)Coal$(), $(item)Magma Cream$(), $(item)Blaze Powder$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "infernomobs:salamander",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Deadly amphibians that have adapted to incredible temperatures, they have a fiery bite! Tamed $(thing)Salamanders$() make great mounts and even protect their rider from fire!$(br2)Can be tamed and used as mount. Drops $(item)Coal$(), $(item)Magma Cream$(), $(item)Blaze Powder$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Salamander Treats$() and healed with any cooked meat.$(p)Once tamed and equipped with a saddle, $(thing)Salamanders$() become the ultimate fire mount with the ability to quickly swim through lava! They will grant their rider with Fire Resistance which will also allow their rider to see clearly in lava. Their mount ability (press $(k:Mount Ability)) is Fiery Burst which sets all nearby enemies on fire!"
+		},
+		{
+			"type": "crafting",
+			"recipe": "infernomobs:salamandertreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "infernomobs:gorger",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Huge magma worms found swimming in deep lakes of molten lava! They like to splash the lava about everywhere!$(br2)Can be tamed using $(item)Gorger Treats$() and healed using any cooked meat. Drops $(item)Coal$(), $(item)Magma Cream$(), $(item)Blaze Powder$(), $(item)Magma Charge$(), $(item)Iron Ore$(), $(item)Gold Ore$()."
+		}
+	]
+}

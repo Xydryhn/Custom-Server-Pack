@@ -1,0 +1,28 @@
+{
+	"name": "Isentropic Reservoir",
+	"icon": "thermalexpansion:augment:656",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(thing)Isentropic Reservoir$() is an augment that increases the amount of Redstone Flux a $(l:mods_thermalexpansion/magmatic_dynamo)Magmatic Dynamo$() generates by making it consume coolant as well as fuel."
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:augment_33",
+			"text": ""
+		},
+		{
+			"type": "text",
+			"title": "Mechanic",
+			"text": "An installed $(thing)Isentropic Reservoir$() increases the amount of RF per unit of lava by +15% and quadruples power output. Coolant works the same way as it does in a $(l:mods_thermalexpansion/compression_dynamo)Compression Dynamo$(): better coolants will produce more energy per unit of fuel, equals to the $(thing)coolant factor$() of the coolant minus 20%. This means that $(item)Water$() has no bonus, $(item)Gelid Cryotheum$() has a bonus of +40% and $(item)Crushed Ice$() has a +20% bonus."
+		},
+		{
+			"type": "text",
+			"text": "The $(thing)Isentropic Reservoir$() is compatible with other non-specialization augments, making it possible to increase energy output even more."
+		}
+	]
+}

@@ -1,0 +1,102 @@
+{
+	"name": "Lycanites: Shadow",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "From the darkest corners of the world come the stealthiest of beasts. Usually found underground in dark areas, spooky biomes or from special events such as the death of a creature. Sometimes also in The End."
+		},
+		{
+			"type": "empty"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "shadowmobs:phantom",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Wrathful death entities with a thirst for souls! $(thing)Phantoms$() are attracted to death and sometimes mistake people who are asleep as dead! Their ranged attacks cause their victims to run around fear!$(br2)Can be summoned. Drops $(item)Bones$(), $(item)Obsidian$(), $(item)Spectralbolt Charge$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.4,
+            "entity": "shadowmobs:epion",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Giant death bats composed of shadow and stolen blood! $(thing)Epions$() spit blood leech projectiles at their victims, draining health. When in direct contact with the sun, $(thing)Epions$() will explode to death! $(thing)Epions$() can be found during a full moon or in the dark roofed forest!$(br2)Drops $(item)Leather$(), $(item)Gunpowder$(), $(item)Bloodleech Charge$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "shadowmobs:geist",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "$(thing)Geists$() are opportunistic creatures that deform and climb into undead lifeforms and feed off whatever their host is capable of killing. When their host dies, $(thing)Geists$() leap out and reform for a surprise attack!$(br2)Drops $(item)Rotten Flesh$(), $(item)Ender Pearl$(), $(item)Geist Liver$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "shadowmobs:chupacabra",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Dreadful creatures that lurk within the darkest caverns beneath the earth, their insatiable hunger for flesh can be used to manipulate and farm them. Their bite is not only fatal but heals them.$(br2)Can be farmed and tamed. Drops $(item)Chupacabra Meat$() (Cooked if burning), $(item)Leather$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be farmed using live Cows, Pigs or Sheep as breeding 'food'. This mob will not despawn (even on peaceful) unless specified in the config.$(p)Can be tamed with a $(item)Chupacabra Treat$()."
+		},
+		{
+			"type": "crafting",
+			"recipe": "shadowmobs:chupacabratreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "shadowmobs:shade",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Wicked embodiments of deadly shadow magic. $(thing)Shades$() are large, fast and deadly. Their attacks drain a bit of health and they have a horrific howl sending all that oppose them running in fear!$(br2)Can be lured and tamed with a $(item)Shade Treat$(). Drops $(item)Ender Pearl$(), $(item)Obsidian$()."
+		},
+		{
+			"type": "text",
+			"text": "Tamed $(thing)Shades$() can be used as mounts once saddled. Pressing $(k:Mount Ability) will activate the Shade's Horrific Howl, this will apply the Fear debuff to all nearby enemies making them around in panic. $(thing)Shades$() will also bite anything you hit whilst riding them, this bite will have a chance to activate the Horrific Howl too."
+		},
+		{
+			"type": "crafting",
+			"recipe": "shadowmobs:shadetreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "shadowmobs:darkling",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Foul little shadow insects that like to latch onto their victim and slowly drain their blood, feasting to regain any lost health! You best swat these pests off fast!$(br2)Drops $(item)Spider Eye$(), $(item)Fermented Spider Eye$(), $(item)Ender Pearl$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "shadowmobs:wraamon",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Deadly rodents loaded with chaotic energy, they emit this through the spines on their back in order to attack their prey. Very few creatures dare attack these dangerous rodents.$(br2)Can be summoned. Drops $(item)Ender Pearl$(), $(item)Chorus Fruit$(), $(item)Raw Rabbit$(), $(item)Chaos Orb Charge$()."
+		}
+	]
+}

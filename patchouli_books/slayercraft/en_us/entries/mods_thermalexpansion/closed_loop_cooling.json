@@ -1,0 +1,19 @@
+{
+	"name": "Closed-Loop Cooling",
+	"icon": "thermalexpansion:augment:672",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "A $(thing)Closed-Loop Cooling$() augment allows for a $(l:mods_thermalexpansion/compression_dynamo)Compression Dynamo$() to run without consuming the coolant it contains. However, some coolant must be initially present in order for this specialization augment to function."
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:augment_34",
+			"text": ""
+		}
+	]
+}

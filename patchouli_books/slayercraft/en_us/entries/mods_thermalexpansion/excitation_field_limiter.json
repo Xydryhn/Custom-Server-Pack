@@ -1,0 +1,18 @@
+{
+	"name": "Excitation Field Limiter",
+	"icon": "thermalexpansion:augment:515",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(thing)Excitation Field Limiter$() is an augment that prevents a dynamo from wasting generated Redstone Flux when it cannot be emitted.$(p)Normally, a dynamo will always generate at least 10% of its maximum power even if no power is drawn. Installing an $(thing)Excitation Field Limiter$() prevents this waste of power."
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:augment_30"
+		}
+	]
+}

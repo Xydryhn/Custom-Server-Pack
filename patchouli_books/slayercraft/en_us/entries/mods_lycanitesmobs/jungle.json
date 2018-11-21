@@ -1,0 +1,121 @@
+{
+	"name": "Lycanites: Jungle",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Deep within the thick verdant growth, many exotic creatures can be found."
+		},
+		{
+			"type": "empty", "text": ""
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "junglemobs:geken",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Venomous reptiles with incredible jumping abilities, they prefer to hunt at night but will stalk prey during the day too so watch out!$(br2)Can be summoned. Drops $(item)Bone$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "junglemobs:uvaraptor",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Vicious brid-like hunters, they will attack animals and people alike. They will attack in groups and will leap upwards and then swoop down onto their target.$(br2)Can be tamed and ridden. Drops $(item)Feather$(), $(item)Bone$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Uvaraptor Treats$() and healed with any cooked meat.$(br2)Once tamed and equipped with a saddle, $(thing)Uvaraptors$() can make very versatile mounts, their ability allows them to leap upwards into the air where they can slowly glide down or leap upwards even more (press $(k:Mount Ability) to use this ability once mounted). They will take no falling damage."
+		},
+		{
+			"type": "crafting",
+			"text": "",
+			"recipe": "junglemobs:uvaraptortreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.3,
+            "entity": "junglemobs:concapede",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "A bizarre insect that is often misunderstood as a giant centipede. $(thing)Concapedes$() are actually a connection of strange beetles which latch onto each other, if one segment is killed, the $(thing)Concapede$() will split into two and eventually the headless half will grow a new head. $(thing)Concapedes$() are vegetarians but will attack at night or in the dark as they feel threatened.$(br2)Can be tamed and bred. Drops $(item)Raw Concapede Meat$()."
+		},
+		{
+			"type": "text",
+			"text": "$(thing)Concapede$() Heads can be lured with any vegetable. To breed a $(thing)Concapede$() you should first feed it any vegetable to make it peaceful, when the love hearts show it is safe to start splitting it up by killing off the body segments, don't hit the head though or it will attack. A headless $(thing)Concapede$() will grow a new head, this can take a few days. A $(thing)Concapede$() with a head will grow new body segments every day or so up to a maximum of 20."
+		},
+		{
+			"type": "empty"
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "junglemobs:tarantula",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Venomous leaping spiders that constantly leave a trail of webbing, the web doesn't last long but can be very dangerous if you get caught in it.$(br2)Can be summoned. Drops $(item)String$(), $(item)Spider Eye$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "junglemobs:conba",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Mischievous apes with a passion for poop! They like to throw their sticky poop at people causing slowness and nausea as well as creating a poop cloud which extends these effects. $(thing)Conba$() keep their distance at all times.$(br2)Drops $(item)Poop$() and $(item)Cocoa Beans$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "junglemobs:vespid",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Invasive giant wasp like insects with a poisonous sting. $(thing)Vespid$() alone aren't much of a problem but in groups or with a $(thing)Queen Vespid$(), they can be deadly. $(thing)Vespid Queens$() are large $(thing)Vespids$() that are protected by a swarm of standard $(thing)Vespids$(). Queens will have nearby standard $(thing)Vespids$() build a hive. $(thing)Vespid Queens$() are known to inject eggs into $(thing)Conba$() turning them into undead nests waiting to hatch!$(br2)Drops $(item)Clay$(), $(item)Veswax$(), $(item)Propolis$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "junglemobs:dawon",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Crystaline felines with a deadly pounce that can cause slowness! Sometimes rare crystals can be found on their body.$(br2)Can be tamed with $(item)Dawon Treats$() and healed with any cooked meat. Drops $(item)Quartz$(), $(item)Emerald$(), $(item)Diamond$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "junglemobs:cockatrice",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Deadly giant chicken-like wyverns, their beat drips with paralysing and aphagia inducing toxins that are said make their victims feel like they're turned into stone.$(br2)Can be tamed and ridden. Drops $(item)Bones$(), $(item)Feathers$(), $(item)Chicken$(), $(item)Prismarine Shards$(), $(item)Emerald$(), $(item)Diamond$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Cockatrice Treats$() and healed with any cooked meat or fish.$(br2)Once tamed and equipped with a saddle, $(thing)Cockatrice$() are incredibly powerful flying mounts. Their mount ability is Petrifying Caw, which will paralyse and afflict aphagia (prevents players from using many items) to all nearby enemies (press $(k:Mount Ability) to use this ability once mounted)."
+		},
+		{
+			"type": "crafting",
+			"text": "",
+			"recipe": "junglemobs:cockatricetreat"
+		}
+	]
+}

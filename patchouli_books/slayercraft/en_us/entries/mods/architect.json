@@ -1,0 +1,75 @@
+{
+	"name": "Architect",
+	"icon": "architect:sketch",
+	"category": "mods",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(l:https://minecraft.curseforge.com/projects/architect)Architect$() is a mod enabling players to turn their creation into a blueprint and then have it duplicated elsewhere. This enables large builds - with many duplicate features - to be built more quickly."
+		},
+        {
+            "type": "spotlight",
+            "title": "Sketches",
+            "text": "To get started with Architect, you'll need to $(action)craft$() a $(item)Sketch$() first. $(item)Sketches$() require an $(item)Ender Pearl$(), 5 $(item)Leather$() and 2 $(item)Paper$() to make, or can be recycled from a $(item)Blueprint$().",
+            "item": "architect:sketch"
+        },
+		{
+            "type": "crafting",
+            "text": "",
+            "recipe": "architect:sketch",
+			"recipe2": "architect:sketch_recraft"
+        },
+		{
+			"type": "text",
+			"text": "To add blocks to a sketch, $(action)right-click$() them with the $(item)Sketch$() in your hand. To remove blocks, $(action)right-click them again$().$(br2)If you wish to add all blocks in a rectangular area, $(action)sneak right-click$() one of the corners, then $(action)release the sneak key$() and $(action)right-click$() the corner on the opposite side.$(br2)To remove all blocks in the rectangular area use the same method, but $(action)keep the sneak key held$() while right-clicking the second corner."
+		},
+		{
+			"type": "image",
+			"title": "Block selection",
+			"text": "Selecting blocks to add to the sketch",
+			"images": ["slayercraft:textures/screenshots/architect_selecting_blocks.png"],
+			"border": true
+		},
+		{
+			"type": "text",
+			"text": "Once the sketch is ready, turn it into a blueprint by $(action)pressing and holding right-click$() while not pointing at a block (point to the air). The blueprint can then be used to place the structure - as long as all necessary blocks are available in the player's inventory.$(br2)The blueprint can be rotated by pressing $(k:architect.rotateBlueprint).$(br2)If the blueprint cannot be placed, the blocked locations will be marked red."
+		},
+		{
+			"type": "image",
+			"title": "Blueprint creation",
+			"text": "",
+			"images": [
+				"slayercraft:textures/screenshots/architect_bake_blueprint.png"
+			],
+			"border": true
+		},
+		{
+			"type": "image",
+			"title": "Block placement",
+			"text": "",
+			"images": [
+				"slayercraft:textures/screenshots/architect_placement_good.png",
+				"slayercraft:textures/screenshots/architect_placement_bad.png"
+			],
+			"border": true
+		},
+        {
+            "type": "spotlight",
+            "title": "Item and Fluid Providers",
+            "text": "Keeping all necessary blocks in your inventory can be difficult for large constructions. To make your life easier, you can craft an $(item)Item Provider$(). By $(action)right-clicking$() the $(item)Item Provider$() on a chest, it will pull items from the chest.",
+            "item": "architect:provider_item"
+        },
+		{
+			"type": "text",
+			"text": "Note that this will work with anything that has an inventory - including, for instance, drawer controllers or machines.$(br2)The $(item)Fluid Provider$() provides a similar function, except that it will draw fluids from a tank in order to fill in liquid blocks."
+		},
+		{
+            "type": "crafting",
+            "text": "",
+            "recipe": "architect:provider_item",
+			"recipe2": "architect:provider_fluid"
+        }
+	]
+}

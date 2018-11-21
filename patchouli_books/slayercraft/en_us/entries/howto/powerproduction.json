@@ -1,0 +1,59 @@
+{
+	"name": "Power production",
+	"icon": "thermalexpansion:dynamo",
+	"category": "howto",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "You need a job done? You make a machine. Since you're not really into cranking power by hand for eternity, you will need some stable power source. Whether you intend to just get started with a couple simple machines or need an entire base powered, a variety of options exists to generate power. Note that in this entry, only RF power will be discussed; see other mods' manuals for other incompatible forms of power."
+		},
+		{
+			"type": "text",
+			"title": "Forestry",
+			"text": "In the event that you don't mind to crank by hand, you can create a $(bold)$(item)Clockwork Engine$() relatively cheaply (4 copper ingots, 4 gold ingots, 2 redstone, 1 iron). Right-click the engine to wind it up.$(p)The $(bold)$(item)Biogas Engine$() can burn organic materials, such as fruit juice, liquid biomass, seed oil or liquid honey. It does however need lava in its secondary tank to heat up."
+		},
+		{
+			"type": "text",
+			"text": "The $(bold)$(item)Peat-Fired Engine$() burns either $(item)Peat$() as fuel, producing 10 RF/tick for 5000 ticks, or $(item)Bituminous Peat$(), producing 20 RF/tick for 6000 ticks. This provides a steady power source if you manage to setup a peat farm."
+		},
+		{
+			"type": "text",
+			"title": "Thermal Expansion",
+			"text": "The $(l:mods_thermalexpansion/steam_dynamo)$(bold)$(item)Steam Dynamo$() can generate energy from water and solid fuel such as $(item)Coal$() or $(item)Charcoal$(). The $(l:mods_thermalexpansion/magmatic_dynamo)$(bold)$(item)Magmatic Dynamo$() can generate energy from lava. The $(l:mods_thermalexpansion/compression_dynamo)$(bold)$(item)Compression Dynamo$() can do so from liquid fuel such as Seed oil, Crude Oil, Naptha or Refined Fuel."
+		},
+		{
+			"type": "text",
+			"text": "The $(l:mods_thermalexpansion/reactant_dynamo)$(bold)$(item)Reactant Dynamo$() generates fuel with specific combinations of fuel and reactant to generate energy. For instance, 100 millibuckets of $(item)Blazing Pyrotheum$() and one $(item)Cryotheum Dust$() generates 400 000 RF. $(l:mods_thermalexpansion/enervation_dynamo)$(bold)$(item)Enervation Dynamos$() can convert redstone into energy (64 000 RF / redstone or 640 000 RF / redstone block) or can drain items that contain energy. And if you're into exotic power sources, a $(l:mods_thermalexpansion/numismatic_dynamo)$(bold)$(item)Numismatic Dynamo$() is even able to generate energy from coins and gems!"
+		},
+		{
+			"type": "text",
+			"title": "Immersive Engineering",
+			"text": "Immersive Engineering contains multiple energy-producing machines as well: the $(bold)$(item)Kinetic Dynamo$() can be used in combination with a $(item)Water Wheel$(), $(item)Windmill$() or $(item)Improved Windmill$() for passive energy generation. The $(bold)$(item)Thermoelectric Generator$() can passively generate power using a hot and cold liquid on either side. If you need something bigger, a $(bold)$(item)Diesel Engine$() is a large multiblock generator which generates 4096 RF/t from $(item)Biodiesel$()."
+		},
+		{
+			"type": "text",
+			"text": "And as a final option, you can make a $(bold)$(item)Lightning Rod$(), which collects 16 million RF for every thunderstrike it manages to catch.$(p)$(thing)Immersive Petroleum$() also adds a $(bold)$(item)Portable Generator$() which can generate RF from $(item)Gasoline$(), generating 256 RF/tick with minimal setup."
+		},
+		{
+			"type": "text",
+			"title": "Actually Additions",
+			"text": "If you like sustainable energy generation, don't worry: $(thing)Actually Additions$() has you covered with a $(bold)$(item)Solar Panel$(), generating 8 RF/t. The $(bold)$(thing)Leaf-Eating Generator$() equally produces green energy at 350 RF per consumed leaf block. You don't care about nature? Fresh Minecraft air is infinite, so you can still use a $(bold)$(item)Coal Generator$() (30 RF/t) or $(bold)$(item)Oil Generator$() producing 40-350 RF/t depending on the fuel provided."
+		},
+		{
+			"type": "text",
+			"title": "Ender IO",
+			"text": "$(thing)Ender IO$() has its own energy producers too, if you needs something that fits into your $(thing)Ender IO$() machine park. The $(bold)$(item)Stirling Generator$() generates 20 RF/t from solid fuels. The $(bold)$(item)Combustion Generator$() takes liquid fuels instead to generate 60-160 RF/t depending on the fuel (or the $(bold)$(item)Enhanced Combustion Engine$(), which has double performance)."
+		},
+		{
+			"type": "text",
+			"text": " If you have $(item)Nutrient Distillation$(), it can also be used to drive a $(bold)$(item)Zombie Generator$() (80 RF/t) or even better, a $(bold)$(item)Frank'n'Zombie Generator$() (double performance). Last but not least, the $(bold)$(item)Ender Generator$() consumes $(item)Dew of the Void$() to produce up to 540 RF/t."
+		},
+		{
+			"type": "text",
+			"title": "Industrial Foregoing",
+			"text": "$(thing)Industrial Foregoing also contains a couple generators. The $(bold)$(item)Petrified Fuel Generator$() generates energy from solid fuels, with better fuels generating energy faster. The $(bold)$(item)Biofuel Generator$() can produce 160 RF/t using $(item)Biofuel$(). And the $(bold)$(item)Protein Generator$() produces 320 RF/t consuming $(item)Protein$()."
+		}
+	]
+}

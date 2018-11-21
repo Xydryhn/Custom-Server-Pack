@@ -1,0 +1,47 @@
+{
+	"name": "Mob Grinding",
+	"icon": "minecraft:skull:4",
+	"category": "howto",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "You kill monsters, you take their loot. You need more loot, you kill more monsters. You need even more, ... you get tired of the killing and setup a farm instead. Various mods offer functionality needed to spawn and kill monsters."
+		},
+		{
+			"type": "text",
+			"title": "Woot",
+			"text": "If you wish to have a spawner that is easy to setup, low in maintenance and friendly for the server, you can setup a $(l:mods/woot)Woot$() monster factory. These factories also integrate with $(l:mods/bloodmagic)Blood Magic$() to generate Life essence."
+		},
+		{
+			"type": "text",
+			"title": "Industrial Foregoing",
+			"text": "The $(item)Mob Duplicator$() is capable of spawning a monster by placing a trapped monster (in a $(item)Mob Imprisonment Tool$()) in the Duplicator and providing it with Essence and power.$(p)The spawned mobs can then be killed using a $(item)Mob Slaughter Factory$(). A source of Essence is needed in this case, for which a dark room can be helpful."
+		},
+		{
+			"type": "text",
+			"title": "Ender IO",
+			"text": "The $(item)Powered Spawner$() is also able to spawn monsters of a given type by combining a $(item)Broken Spawner$() with a crafted $(item)Powered Spawner$(). $(item)Broken Spawners$() are obtained by breaking vanilla spawners. Spawn type can then be changed using a filled $(item)Soul Vial$() in a $(item)Soul Binder$(). A $(item)Killer Joe$() can then be setup to kill the monsters. This will also drop XP."
+		},
+		{
+			"type": "text",
+			"title": "Dark Utilities",
+			"text": "Though not really a mob spawner, the $(item)Monolith of Spawning$() will increase spawn rates for a given chunk. In combination with a dark room setup, this can help to generate random loot and experience quickly, in combination with a mob trab or one of the killing machines of the other mods."
+		},
+		{
+			"type": "text",
+			"title": "RF Tools",
+			"text": "The RF Tools $(item)Spawner$() provides yet another way to spawn monsters. This requires a $(item)Syringe$() with blood from the appropriate monster type. Place a filled syringe in a Spawner and supply it with power. Additional items must then be supplied through $(item)Matter Beamers$() before the monsters can be spawn."
+		},
+		{
+			"type": "text",
+			"title": "Extra Utilities 2",
+			"text": "Similar to the $(item)Monolith of Spawning$(), it is also possible to create $(item)Cursed Earth$() by right-clicking regular dirt with a $(item)Drop of Evil$(). These drop from $(thing)Wither Skeletons$() with a drop rate of 10%. $(item)Drops of Evil$() can also be applied on spawners to turn them into $(item)Resturbed Spawners$(), which can be picked up and placed anywhere. (mining a $(item)Resturbed Spawner$() with a pickaxe can be used to pick up the spawner again)"
+		},
+		{
+			"type": "text",
+			"text": "Extra Utilities also has Spikes that can be used on the killing end of the mob farm. Different levels of spikes will have different effects: a $(item)Wooden Spike$() will damage a monster to half a heart (making it easy to finish off by hand), $(item)Stone Spikes$() and $(item)Iron Spikes$() will damage mobs until death, $(item)Gold Spikes$() will also drop XP and $(item)Diamond Spikes$() will even drop loot that is normally only obtainable if the monster is killed by the player."
+		}
+	]
+}

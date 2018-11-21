@@ -1,0 +1,134 @@
+{
+	"name": "Lycanites: Plains",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Lycanites Plains mobs appear in grassy fields, including Plains, Savannah and similar biomes."
+		},
+		{
+			"type": "empty",
+			"text": ""
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "plainsmobs:kobold",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Small pesky little rat-like creatures! $(thing)Kobolds$() like to gather everything they find including your items, if you drop an item near them they will run over and steal it! They will flee from players unless they are at or below 50% health from which they will attack players instead!$(br2)Can be summoned. Drops $(item)Coal$(), $(item)Iron Ingots$(), $(item)Gold Nuggets$(), $(item)Emeralds$() as well as any stolen items."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "plainsmobs:ventoraptor",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Vicious brid-like hunters, they will attack animals and people alike. They will attack in groups and will leap towards their target at a very fast speed.$(br2)They can be tamed and ridden on. Drops $(item)Feather$() and $(item)Bone$()."
+		},
+		{
+			"type": "text",
+			"text": "$(thing)Ventoraptors$() can be tamed by feeding it $(item)Ventoraptor Treats$()$(br)($(action)right-click$() the $(thing)Ventoraptor$() with the treats in hand) and healed with any cooked meat. Once tamed and equipped with a saddle, $(thing)Ventoraptors$() can become very fast mounts. Their ability allows them to leap forwards and glide at a very fast pace (press $(k:Mount Ability) to use this ability once mounted). They will take no falling damage."
+		},
+		{
+			"type": "crafting",
+			"text": "",
+			"recipe": "plainsmobs:ventoraptortreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "plainsmobs:maka",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large herbivores that are usually peaceful and can be easily farmed if you have large pen! $(thing)Alpha Makas$() will sometimes attack people who get too close. $(thing)Alpha Makas$() will occasionally spar with each other too, usually until one of them gets too tired, they don't normally kill each other. They will also protect their herd from predators.$(br2)Can be lured and bred using vegetables ($(item)Wheat$(), $(item)Carrots$(), $(item)Potatoes$(), etc). Drops $(item)Raw Maka Meat$() (cooked if burning)."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "plainsmobs:zoataur",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large carnivours beasts. $(thing)Zoataur$() are known for their large exposed bone plates which they use defensively. When attacked they have a chance of entering a blocking state where they will block most of the damage they take, it is normally best to stay away from them until they stop blocking and then strike them again.$(br2)Drops $(item)Leather$() and $(item)Bones$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "plainsmobs:roc",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "$(thing)Rocs$() fly high above the plains, they hunt small prey and players. $(thing)Rocs$() will pick up their target with their tail claws up into the sky! $(thing)Rocs$() have also learned that they can safely pickup $(thing)Creepers$() in order to use them as bombs, beware!$(br2)They can be tamed and ridden on. Drops $(item)Feathers$() and $(item)Bones$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Roc Treats$() and healed with any cooked meat. Once tamed and equipped with a saddle, Rocs can be very useful flying mounts. Their mount ability (press $(k:Mount Ability)) allows you to have them pickup other creatures, additionally $(thing)Creepers$() won't explode when doing this and will be ignited once dropped."
+		},
+		{
+			"type": "crafting",
+			"text": "",
+			"recipe": "plainsmobs:roctreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.4,
+            "entity": "plainsmobs:feradon",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Lion like predators that are excellent hunters with a deadly pounce that weakens their victims attacks!$(br2)They can be tamed and ridden on. Drops $(item)Leather$() and $(item)Bones$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Feradon Treats$() and healed with any cooked meat. Once tamed and equipped with a $(item)Saddle$(), $(thing)Feradon$() can make for deadly battle mounts with their weakness pounce attack increasing the damage done to your enemies!"
+		},
+		{
+			"type": "crafting",
+			"text": "",
+			"recipe": "plainsmobs:feradontreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "plainsmobs:quillbeast",
+			"offset": 0.4,
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large rodents with razor sharp quills on their back, they are easily threatened and will fire these quills from afar! Can be tamed with $(item)Quillbeast Treats$() and healed with any vegetable.$(br2)Drops $(item)Leather$() and $(item)Quills$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.4,
+            "entity": "plainsmobs:morock",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Aggressive hardy wyverns, while they can't breathe fire, they still have a devastating bite!$(br2)They can be tamed and ridden on. Drops $(item)Bones$(), $(item)Prismarine Shards$(), $(item)Prismarine Crystals$(), $(item)Diamond$(), $(item)Emerald$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Morock Treats$() and healed with any cooked meat. Once tamed and equipped with a $(item)Saddle$(), $(thing)Morocks$() can be devastating combat flying mounts. They will grant their rider immunity to the weakness and mining fatigue debuffs. Their mount ability (press $(k:Mount Ability)) gives them a speed boost forwards in the direction that they are flying for charging in (or away) from battle!"
+		},
+		{
+			"type": "crafting",
+			"text": "",
+			"recipe": "plainsmobs:morocktreat"
+		}
+	]
+}

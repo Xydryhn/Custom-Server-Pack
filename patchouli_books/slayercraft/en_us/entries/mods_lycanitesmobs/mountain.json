@@ -1,0 +1,93 @@
+{
+	"name": "Lycanites: Mountain",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "High up in the rocky and cold mountains, these hardy creatures are waiting to throw you back down!"
+		},
+		{
+			"type": "empty",
+			"text": ""
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "mountainmobs:jabberwock",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Beware the $(item)Jabberwock$(), my son! The hoofs that thump, the claws that catch!$(br2)Can be summoned. Drops $(item)Bone$(), $(item)Leather$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "mountainmobs:troll",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Up in the mountains and deep within rocky caves, $(thing)Trolls$() claim territory. They throw large boulders at any who stand in their territory. In sunlight, their skin becomes stone, reducing movement speed but increasing defense. In stone form, $(thing)Trolls$() are weak to Pickaxes and immune to Fire, in flesh form they are weak to Fire and Pickaxes do normal damage.$(br2)Can be summoned. Drops $(item)Wood$(), $(item)Bone$(), $(item)Leather$(), $(item)Coal$(), $(item)Boulder Blast Charge$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "mountainmobs:yale",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Strange fluffy ram-like creatures. $(thing)Yales$() provide wool which can be obtained using shears, they can also be farmed with vegetables. They use their horns as front legs and eat with tiny arms.$(br2)Can be lured and bred using Vegetables. Can be dyed and cut with shears like $(thing)Sheep$(). Drops $(item)Yale Meat$(), $(item)Wool$() (Colored to match fleece)."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "mountainmobs:beholder",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large hostile masses of eyes and tentacles with an eternal hunger for magic energy! $(thing)Beholders$() are known to fire a deadly laser storm of arcane energy to defeat their foes. Take caution when attacking with melee weapons up close as they will eat any beneficial effects you have to heal themselves for 150% of the damage dealt to them!$(br2)Can be tamed and ridden upon. Drops $(item)Arcane laser Storm Charge$(), $(item)Ghast Tear$(), $(item)Gunpowder$(), $(item)Glowstone Dust$(), $(item)Eye of Ender$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Beholder Treats$() and healed with any cooked meat.$(br2)Once tamed and equipped with a saddle, $(thing)Beholders$() can be very deadly flying mounts. Their mount ability allows you to fire their Arcane Laser Storms!"
+		},
+		{
+			"type": "crafting",
+			"recipe": "mountainmobs:beholdertreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "mountainmobs:barghest",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Deadly mountian predators capable of making high leaps with deadly weight attacks on impact. $(thing)Barghests$() are also very competent climbers making them exceptional mounts for the mountains.$(br2)Can be tamed and ridden upon. Drops $(item)Leather$() and $(item)Bone$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed using $(item)Barghest Treats$() and healed using any cooked meat.$(br2)Once tamed and equipped with a saddle, $(thing)Barghests$() can make excellent mounts, especially for mountainous terrain. They have the ability to leap high into the air and paralyse nearby enemies when landing. The $(thing)Barghest$() will also bite enemies that their rider attacks."
+		},
+		{
+			"type": "crafting",
+			"recipe": "mountainmobs:barghesttreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "mountainmobs:wildkin",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Powerful bipedal owl-bear beasts that are fast and swift.$(br2)Can be tamed using $(item)Wildkin Treats$() and healed using any cooked meat. Drops $(item)Bone$(), $(item)Feather$() and $(item)Lapis$()."
+		}
+	]
+}

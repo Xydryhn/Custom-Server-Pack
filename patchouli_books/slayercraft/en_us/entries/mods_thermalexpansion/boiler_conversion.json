@@ -1,0 +1,31 @@
+{
+	"name": "Boiler Conversion",
+	"icon": "thermalexpansion:augment:576",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(thing)Boiler Conversion$() is an augment that converts a $(l:mods_thermalexpansion/steam_dynamo)Steam Dynamo$(), $(l:mods_thermalexpansion/magmatic_dynamo)Magmatic Dynamo$() or $(l:mods_thermalexpansion/compression_dynamo)Compression Dynamo$() into a steam boiler. This increases overall efficiency."
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:augment_31"
+		},
+		{
+			"type": "text",
+			"title": "Mechanics",
+			"text": "A $(thing)Boiler Conversion$() considerably changes the way the dynamo works. Instead of outputting RF, the dynamo outputs steam instead. For each RF that would otherwise be produced, 1 millibucket of steam will be generated instead.$(p)$(thing)Boiler Conversions$() also change the amount of RF produced by the dynamo as well as the maximum power output."
+		},
+		{
+			"type": "text",
+			"text": "When used in a $(l:mods_thermalexpansion/steam_dynamo)Steam Dynamo$(), maximum power output is increased vourfold and energy output per item ins increased by +15%. In a $(l:mods_thermalexpansion/magmatic_dynamo)Magmatic Dynamo$() or $(l:mods_thermalexpansion/compression_dynamo)Compression Dynamo$(), maximum power output is doubled but a -40% energy penalty is applied.$(p)In a $(thing)Compression Dynamo$(), coolant fuel efficiency bonus also doesn't apply."
+		},
+		{
+			"type": "text",
+			"text": "When $(thing)steam$() is sent into a $(l:mods_thermalexpansion/steam_dynamo)Steam Dynamo$() with a $(l:mods_thermalexpansion/turbine_conversion)Turbine Conversion$(), 2RF is generated for every millibucket of steam. Also, dynamos with this augment will always output steam at its maximum rate, $(bold)no matter how much is consumed$(). Keep this in mind when designing a power system based on steam."
+		}
+	]
+}

@@ -1,0 +1,115 @@
+{
+	"name": "Lycanites: Swamp",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "In the depths of the swamp, these creatures can be found lurking amongst the mossy waters. Most of these creatures are poisonous and some can even induce temporary blindness. They are found in biomes with trees and water including standard Swamps, Bogs and Marshes. Can also be found in dark biomes."
+		},
+		{
+			"type": "empty", "text": ""
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "swampmobs:aglebemu",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large poisonous frogs with excellent swimming ability as well as amazing jumping power and a deadly long tongue!$(br2)Can be summoned. Drops $(item)Coal$(), $(item)Slime Ball$(), $(item)Poison Gland$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "swampmobs:dweller",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Within the murky swamp waters, the $(thing)Dwellers$() swim about. $(thing)Dwellers$() are amphibious creatures that will come onto land during rain or to catch their prey, however they cannot stay dry for too long. $(thing)Dwellers$() can be found in swamps and sometimes rivers.$(br2)Can be summoned. Drops $(item)Fish$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "swampmobs:ettin",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Twin headed abominations that can be found lurking in the deep swamps. $(thing)Ettins$() are an uncommon sight, they are slow, large, clumsy beasts with a lot of health and a deadly twin club attack. They will smash nearby soft blocks such as dirt, wood or plants in panic when they are close to their opponent. They can also break down doors on hard difficulty.$(br2)Drops $(item)Oak Logs$(), $(item)Brown Mushrooms$(), $(item)Red Mushrooms$(), $(item)Leather$(), $(item)Coal$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "swampmobs:lurker",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Quiet deadly assassins... $(thing)Lurkers$() hide within the undergrowth of the swamp, when they see their prey, they strike, dousing their target with a deadly venom that both slowly kills and blinds it. Once the $(thing)Lurker$() has blinded its victim, hides away back into the shadows only to strike again should the victim's blindness wear off.$(br2)Can be tamed using $(item)Lurker Treats$() as bait and healed by feeding them any cooked meat. Drops $(item)String$(), $(item)Leather$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "swampmobs:eyewig",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large venomous insects that scurry around the murky swamp undergrowth. $(thing)Eyewigs$() have a dangerous bite that can cause blindness but are more known for their giant mono eyes that can produce a concentrated beam of poison. $(thing)Eyewigs$() will only attack at night or in dark areas.$(br2)Can be tamed and mounted. Drops $(item)Spider Eye$(), $(item)Fermented Spider Eye$(), $(item)String$()."
+		},
+		{
+			"type": "text",
+			"text": "You can tame $(thing)Eyewigs$() by luring them in and feeding them $(item)Eyewig Treats$(). Tamed $(thing)Eyewigs$() can be healed by feeding them any cooked meat.$(br2)Tamed $(thing)Eyewigs$() can be used as mounts once saddled. $(thing)Eyewig$() mounts can fall for a larger distance than most mounts and have the ability to climb up walls and swim quickly across water surfaces, they also protect their rider from poison effects."
+		},
+		{
+			"type": "crafting",
+			"text": "Their special ability allows them to fire a poison ray where you are aiming (hold $(k:Mount Ability) to use this ability once mounted).",
+			"recipe": "swampmobs:eyewigtreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "swampmobs:aspid",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large reptile-like creatures with strange plants growing from their backs. $(thing)Aspids$() are very poisonous and will leave a trail of poisonous clouds behind them. They are peaceful creatures until provoked.$(br2)Can be lured and bred using Mushrooms. Drops $(item)Raw Aspid Meat$() (cooked if burning) and $(item)Poison Gland$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "swampmobs:triffid",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large carnivorous plants, slow but poisonous and deadly! Axes are very effective, but take heed for they will heal in water!$(br2)Can be summoned. Drops $(item)Log$(), $(item)Stick$(), $(item)Wheat Seeds$(), $(item)Pumpkin Seeds$(), $(item)Melon Seeds$(), $(item)Red Mushroom$(), $(item)Brown Mushroom$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "swampmobs:remobra",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Small venomous Amphithere Dragons! $(thing)Remobra$() fly around the deep swamp at night and spit poison at their prey, they are easily killed but can be deadly pests.$(br2)Can be summoned. Drops $(item)Slime Balls$() and $(item)Poison Glands$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "swampmobs:ghoulzombie",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Within the depths of the dark swamps, $(thing)Ghoul Zombies$() rise to feed upon the fles of the living! Ghouls are poisonous and a little faster than regular Zombies but have a little less health. Like regular Zombies, on Hard Difficulty, $(thing)Ghoul Zombies$() will break down doors and will convert villagers.$(br2)Drops $(item)Rotten Flesh$() and $(item)Coal$()."
+		}
+	]
+}

@@ -1,0 +1,248 @@
+{
+	"name": "Lycanites: Elemental",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Lycanites Elemental mobs are mobs which appear in response to the current environment."
+		},
+		{
+			"type": "empty", "text": ""
+		},
+		{
+            "type": "entity",
+			"anchor": "cinder",
+			"scale": 0.7,
+            "entity": "elementalmobs:cinder",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Fierce fire elementals, their bodies are formed as they burn the atmosphere around them. Cinders will spawn from fire!$(br2)Can be summoned. Drops $(item)Coal$(), $(item)Blaze Rod$(), $(item)Ember Charge$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "jengu",
+			"scale": 0.7,
+            "entity": "elementalmobs:jengu",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Water elementals known as the protectors of pure water, they will attack anyone they see as unpure (usually you)!$(br2)Can be summoned. Drops $(item)Aqua Pulse Charge$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "geonach",
+			"scale": 0.7,
+            "entity": "elementalmobs:geonach",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Geonachs are brutal earth elementals commonly found by unsuspecting miners when disturbing the earth. They rapidly strike twice with a spear and then slam with their heavy fist.$(br2)Can be summoned. Drops $(item)Stone$(), $(item)Iron Ore$(), $(item)Quartz$(), $(item)Gold Ore$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "djinn",
+			"scale": 0.7,
+            "entity": "elementalmobs:djinn",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Proud Air Elementals that guard the skies from those that they think shouldn't be up there! Djinn unleash deadly whirlwind rings that inflict the levitation debuff.$(br2)Can be summoned. Drops $(item)Feather$(), $(item)Chorus Fruit$(), $(item)Snowballs$(), $(item)Whirlwind Charge$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "aegis",
+			"scale": 0.7,
+            "entity": "elementalmobs:aegis",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Law enforcing Order Elementals that usually manifest in built up locations such as Villages, it seems the developing society of a village resonates with these Order Elementals, so you best not disrupt it while they're around!$(br2)Can be summoned. Drops $(item)Quartz$(), $(item)Gold Nugget$(), $(item)Emerald$(), $(item)Cleansing Crystal$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "argus",
+			"scale": 0.7,
+            "entity": "elementalmobs:argus",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Disruptive Chaos Elementals that usually manifest when the balance of nature is tipped. Argi will apply Instability causing the victim to go flying all over the place.$(br2)Can be summoned. Drops $(item)Quartz$(), $(item)Gold Nugget$(), $(item)Ender Pearl$(), $(item)Obsidian$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "xaphan",
+			"scale": 0.7,
+            "entity": "elementalmobs:xaphan",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Acid Elementals that manifest the very aspect of breaking down and dissolving away. Xaphan are often formed when things are mixed such as water and lava.$(br2)Drops $(item)Slime Balls$(), $(item)Bones$(), $(item)Blaze Rods$(), $(item)Acid Splash Charges$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "zephyr",
+			"scale": 0.7,
+            "entity": "elementalmobs:zephyr",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Fierce electric elementals usually found during heavy rain and especially during thunder storms. Beware as they will shock any foe close to them and have a paralysing melee attack.$(br2)Drops $(item)Gunpowder$(), $(item)Glowstone Dust$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "volcan",
+			"scale": 0.7,
+            "entity": "elementalmobs:volcan",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Searing Lava Elementals, Volcans will melt everything in their path! Volcans are commonly formed from Cinders and Geonach either from them fusing together or from them being affected by the environment such as Geonach entering lava or Cinders being buried in gravel.$(br2)Can be summoned. Drops $(item)Coal$(), $(item)Blaze Rod$(), $(item)Stone$(), $(item)Iron Ore$(), $(item)Quartz$(), $(item)Gold Ore$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "wisp",
+			"scale": 0.7,
+            "entity": "elementalmobs:wisp",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Out in the light where it's very, very bright, Wisps can sometimes be seen playing. While they're friendly, it is not wise to provoke a Wisp.$(br2)Drops $(item)Glowstone Dust$(), $(item)Gold Nuggets$(), $(item)Light Ball$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "grue",
+			"scale": 0.7,
+            "entity": "elementalmobs:grue",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "When it is pitch black, you are likely to be eaten by a Grue so be careful when exploring the dark! Grues are shadow elementals will teleport behind their target and drain health with their ghastly bite!$(br2)Drops $(item)Ender Pearls$(), $(item)Obsidian$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "spriggan",
+			"scale": 0.7,
+            "entity": "elementalmobs:spriggan",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Mystical Arbour Elementals, Spriggans are known to manifest when plant life is disturbed and are feared for their deadly life draining lasers. Greater Spriggans can also form when a Geonach and Jengu combine together.$(br2)Can be summoned. Drops $(item)Life Drain Charge$(), $(item)Log$(), $(item)Stick$()$(br)($(item)Charcoal$() when burning), $(item)Wheat Seeds$(), $(item)Pumpkin Seeds$(), $(item)Melon Seeds$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "reiver",
+			"scale": 0.7,
+            "entity": "elementalmobs:reiver",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Frost Elementals made of the pure cold, their bodies are formed as they freeze the atmosphere around them.$(br2)Can be summoned. Drops $(item)Snowball$(), $(item)Ice$(), $(item)Frostbolt Charge$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "nymph",
+			"scale": 0.7,
+            "entity": "elementalmobs:nymph",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Whimsical Fae Elementals bursting with healing energy that heals all around them. They have a fondness for flowers! While harmless directly, they can cause mischief when scared. Nymphs like to hang around bright flowers.$(br2)Can be summoned. Drops $(item)Flowers$(), $(item)Wheat Seeds$(), $(item)Pumpkin Seeds$(), $(item)Watermelon Seeds$(), $(item)Immunizer$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "eechetik",
+			"scale": 0.7,
+            "entity": "elementalmobs:eechetik",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Disgusting Poison Elementals bursting with deadly plagues that infect all around them. They have a fondness for mushrooms!$(br2)Drops $(item)Slime Balls$(), $(item)Brown Mushrooms$(), $(item)Red Mushrooms$(), $(item)Poison Glands$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "banshee",
+			"scale": 0.7,
+            "entity": "elementalmobs:banshee",
+			"offset": 0.5,
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Banshees are terrifying Phase Elementals that haunted eerie and abandoned places. Little is known about them as there are very few survivors. Some believe that they steal the eyes of those who look at them in terror, others believe that the creature is actually the pair of eye themselves borrowing a corpse to carry them into the physical world.$(br2)Drops $(item)Soul Sand$(), $(item)Ender Pearl$(), $(item)Eye of Ender$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "vapula",
+			"scale": 0.7,
+            "entity": "elementalmobs:vapula",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Vapulas are powerful Crystal Elementals that embody the essence of structure itself. They fire deadly crystal projectiles from their back. Vapulas are normally found when mining gemstones such as Diamonds.$(br2)Can be summoned. Drops $(item)Stone$(), $(item)Quartz$(), $(item)Diamond$(), $(item)Emerald$(), $(item)Lapis$(), $(item)Cleansing Crystal$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "tremor",
+			"scale": 0.7,
+            "entity": "elementalmobs:tremor",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Tremors are explosive Quake Elementals formed from large explosions and destruction. Their melee attacks create small explosions but their unstable form leaves them vulnerable, destroy them before they destroy you!$(br2)Can be summoned. Drops $(item)Gunpowder$(), $(item)Blaze Powder$(), $(item)Blaze Rods$(), $(item)Firework Star$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "sylph",
+			"scale": 0.5,
+            "entity": "elementalmobs:sylph",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Holy Elementals that are the embodiment of pure Aether energy. They will curse those who trespass upon holy ground, smiting where they will burn in the sunlight!$(br2)Drops $(item)Glowstone Dust$(), $(item)Gold Nuggets$(), $(item)Cleansing Crystal$(), $(item)Aetherwave Charge$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "wraith",
+			"scale": 0.7,
+            "entity": "elementalmobs:wraith",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Terrifying nether elementals, Wraiths, also known as Nether souls are the embodiment of death, decay and corruption! On death, Wraiths explode so watch out!$(br2)Drops $(item)Bone$(), $(item)Gunpowder$(), $(item)Blaze Powder$()."
+		},
+		{
+            "type": "entity",
+			"anchor": "spectre",
+			"scale": 0.7,
+            "entity": "elementalmobs:spectre",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Mysterious Void Elementals found close to the void, they seek to break down reality itself into nothing. They have a deadly pull effect that pulls all nearby targets towards them.$(br2)Can be summoned. Drops $(item)Ender Pearls$(), $(item)Obsidian$()."
+		}
+	]
+}

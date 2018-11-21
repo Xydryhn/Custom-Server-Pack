@@ -1,0 +1,16 @@
+{
+	"name": "Slayer's Manual",
+	"landing_text": "This book is the general guide to the modpack. If you are new, it is highly recommended to at least read the articles in 'Getting Started'.",
+	"advancement_namespaces": [],
+	"subtitle": "How (not) to get killed",
+	"text_color": "3E1C33",
+	"header_color": "114fbf",
+	"nameplate_color": "E1A40D",
+	"macros": {
+		"$(action)": "$(#AA0000)",
+		"$(potato)": "(POTATO MACRO)",
+		"&nbsp;": "\u00a0"
+	},
+	"model": "patchouli:book_green",
+	"advancements_tab": "patchouli"
+}

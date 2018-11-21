@@ -1,0 +1,79 @@
+{
+	"name": "Lycanites: Arctic",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Throughout the vast frozen wastes, creatures of pure cold roam."
+		},
+		{
+			"type": "empty"
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "arcticmobs:frostweaver"
+        },
+		{
+			"type": "text",
+			"text": "Horrid arachnids that roam the cold at night. These creatures spit Frostweb shots at their targets, slowing them. Frostweb shots will also leave lumps of Frostweb on the ground which acts as regular web but melts away after a while.$(br2)Can be summoned. Drops $(item)Silk$(), $(item)Ice$(), $(item)Frostweb Charge$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "arcticmobs:yeti"
+        },
+		{
+			"type": "text",
+			"text": "Large frosty mammals that like to eat the frozen vegetation of the arctic. They can be farmed using vegetables, but watch out for their frost clouds. Yeti milk is a delicacy!$(br2)Can be lured and bred using any vegetable. Can be milked using a bucket. Drops $(item)Raw Yeti Meat$() (Cooked if burning), $(item)Snowballs$(), $(item)Packed Ice$(), $(item)Frosty Fur$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "arcticmobs:wendigo"
+        },
+		{
+			"type": "text",
+			"text": "Large icy beasts known for leaving a trail of Frostfire in their wake! They will also hurl Tundra Blasts which create Frostfire and Frost Clouds on impact.$(br2)Drops $(item)Snow Blocks$(), $(item)Packed Ice$(), $(item)Frosty Fur$(), $(item)Tundra Charges$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.4,
+            "entity": "arcticmobs:arix"
+        },
+		{
+			"type": "text",
+			"text": "Wicked frost imps normally found in very cold places. They throw balls of icefire which damage and slow enemies. Can be tamed making great pets!$(br2)Can be tamed with an $(item)Arix Treat$(). Drops $(item)Icefire Charge$(), $(item)Snowballs$(), $(item)Ice$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "arcticmobs:serpix"
+        },
+		{
+			"type": "text",
+			"text": "Notorious ice worms that burrow through the frozen earth. $(thing)Serpix$() attack by roaring a deadly blizzard, casting frostfire upon the ground!$(br2)Can be tamed with a $(item)Serpix Treat$(). Drops $(item)Blizzard Charge$(), $(item)Snowballs$(), $(item)Iron Ore$(), $(item)Gold Ore$()."
+		},
+		{
+			"title": "Maug",
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "arcticmobs:maug"
+        },
+		{
+			"type": "text",
+			"text": "Large wolf-like arctic bears with a crippling pounce that will leave you limping away!$(br2)Can be tamed and ridden upon. Drops $(item)Leather$(), $(item)Bone$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Maug Treats$() and healed with any cooked meat.$(br2)Once tamed and equipped with a saddle, $(thing)Maugs$() can become very powerful mounts. Their ability allows them to leap forwards (press $(k:Mount Ability) to use this ability once mounted). They will take no falling damage. Upon landing from a leap, all nearby enemies will have their movement speed reduced."
+		},
+		{
+			"type": "crafting",
+			"recipe": "arcticmobs:maugtreat"
+		}
+	]
+}

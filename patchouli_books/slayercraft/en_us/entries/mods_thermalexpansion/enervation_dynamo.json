@@ -1,0 +1,37 @@
+{
+	"name": "Enervation Dynamo",
+	"icon": "thermalexpansion:dynamo:4",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(thing)Enervation Dynamo$() extracts Redstone Flux from natural sources and from items that store it. Its maximum output is 40-120 RF/t depending on the tier. It accepts $(item)Redstone$(), generating 64 000 RF, and $(item)Redstone Blocks$(), generating 640 000 RF. It also accepts any items that store RF, in which case the item will be drained."
+		},
+		{
+			"type": "crafting",
+			"title": "Enervation Dynamo",
+			"recipe": "thermalexpansion:dynamo_4",
+			"text": "Raw materials required: 3 $(item)Gold Ingots$(), 4 $(item)Silver Ingots$(), 2 $(item)Iron Ingots$() and 3 $(item)Redstone$()."
+		},
+		{
+			"type": "text",
+			"text": "The speed at which energy is generated and fuel is consumed depends on how much power can be emitted, and on the dynamo's maximum power output. A basic $(thing)Reactant Dynamo$() has a maximum power output of 40 RF/t. This can be increased by upgrading the dynamo to a higher tier, and by installing certain augments."
+		},
+		{
+			"type": "text",
+			"text": "When an active $(thing)Reactant Dynamo$() cannot emit the energy it generates, it will keep working at its minimum power output (a tenth of its maximum power output). Any more energy that is generated in this case is lost. This can be resolved by installing an $(item)Excitation Field Limiter$()."
+		},
+		{
+			"type": "text",
+			"title": "Tiers",
+			"text": "$(thing)Reactant Dynamos$() come in six tiers. These have the following power output limits and augment slots:$(li)Basic: 40 RF/t, no augments$(li)Hardened: 60 RF/t, 1 slot$(li)Reinforced: 80 RF/t, 2 slots$(li)Signalum: 100 RF/t, 3 slots$(li)Resonant: 120 RF/t, 4 slots"
+		},
+		{
+			"type": "text",
+			"title": "Augments",
+			"text": "The following augments can be installed in a $(thing)Reactant Dynamo$() to improve it:$(li)$(l:mods_thermalexpansion/auxiliary_transmission_coil)Auxiliary Transmission Coil$()$(li)$(l:mods_thermalexpansion/fuel_catalyzer)Fuel Catalyzer$()$(li)$(l:mods_thermalexpansion/transmission_coil_ducting)Transmission Coil Ducting$()$(li)$(l:mods_thermalexpansion/excitation_field_limiter)Excitation Field Limiter$()$(li)$(l:mods_thermalexpansion/disjunctive_extraction)Disjunctive Extraction$()$(p)Note that the number of augments is limited by the dynamo's tier."
+		}
+	]
+}

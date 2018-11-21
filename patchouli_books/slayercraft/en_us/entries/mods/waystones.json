@@ -1,0 +1,43 @@
+{
+	"name": "Waystones",
+	"icon": "waystones:waystone",
+	"category": "mods",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(l:https://minecraft.curseforge.com/projects/waystones)Waystones$() is a mod offering an affordable and easy way to go from place to place using $(thing)Waystones$(), but they do not work between dimensions.$(br2)There are three ways to teleport to a waystone: by using another $(thing)Waystone$(), using a $(item)Return Scroll$() or $(item)Bound Scroll$() or using a $(item)Warp Stone$()."
+		},
+		{
+            "type": "crafting",
+            "text": "Waystone crafting",
+            "recipe": "waystones:waystone",
+            "recipe2": "waystones:warp_stone"
+        },
+        {
+            "type": "spotlight",
+            "title": "Inter-Waystone Travel",
+            "text": "Teleporting between waystones is perhaps the easiest: go to a $(thing)Waystone$(), $(action)right-click$() it, and choose a target to teleport to.$(br2)Traveling this way is completely free and has no cooldown.",
+            "item": "waystones:waystone"
+        },
+        {
+            "type": "spotlight",
+            "title": "Using Scrolls",
+            "text": "As a second method, you can craft yourself some $(item)Bound Scrolls$() and bind them to a $(thing)Waystone$(). By $(action)holding right-click$() with such scroll in your hand, you can go back to the waystone. This consumes the scroll. Alternatively, a $(item)Return Scroll$() can be used, which will teleport you to the nearest Waystone.",
+            "item": "waystones:bound_scroll"
+        },
+		{
+            "type": "crafting",
+            "text": "Waystone crafting",
+            "recipe": "waystones:return_scroll",
+            "recipe2": "waystones:bound_scroll"
+        },
+        {
+            "type": "spotlight",
+            "title": "Warp Stones",
+            "text": "For the most sustainable method, you can craft a $(item)Warp Stone$() instead, and use that to go to any $(thing)Waystone$() accessible to you. Using a $(item)Warp Stone$() is free but comes with a cooldown, as you have to wait 5 minutes in order to use $(italic)any$() $(item)Warp Stone$() again.",
+            "item": "waystones:warp_stone"
+        }
+	]
+}

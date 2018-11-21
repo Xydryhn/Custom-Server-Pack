@@ -1,0 +1,122 @@
+{
+	"name": "Lycanites: Saltwater",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "From deep within in ocean blue to the salty shores these devious creatures dwell, waiting for their prey to wander into their watery trap!"
+		},
+		{
+			"type": "empty",
+			"text": ""
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "saltwatermobs:lacedon",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Strange bipedal fish creatures, they can be found on beaches and under the sea, they can swim very quickly and if they catch their target, they will pull them down to the water's bottom.$(br2)Can be summoned. Drops $(item)Fish$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "saltwatermobs:skylus",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Shelled horrors that lurk the ocean depths. $(thing)Skylus$() have a high defense thanks to their shell, however after taking a good amount of damage they will lose their shell, when this happens their defense drops but their attack and movement speed increases. When attacking they will grab their target and pull it into the ocean depth as well as apply blindness.$(br2)Can be summoned. Drops $(item)Ink Sack$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.3,
+            "entity": "saltwatermobs:ika",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Strange sea-turtle-snail-like creatures. They can come onto land but only for a small amount of time. Their shells offer a good amount of defence but can be broken, once broken the $(thing)Ika$() is able to move faster. They are usually hunted by $(thing)Skylus$().$(br2)Can be lured and bred using any vegetable. Drops $(item)Raw Ika Meat$() (Cooked if burning), $(item)Ink Sac$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+			"title": "Abtu",
+            "entity": "saltwatermobs:abtu",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Vicious fish with big teeth! It is rare to find adults, but if you do, you best swim away as they will swarm you with their children!$(br2)Drops $(item)Salmon$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.3,
+            "entity": "saltwatermobs:raiko",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large sea birds known to dive into the ocean and snatch their prey to fly up high and drop their their prey back into the ocean with the weight effect, eventually drowning their prey.$(br2)Can be tamed and used as mount. Drops $(item)Feathers$() and $(item)Bones$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Raiko Treats$() and healed with any cooked meat or fish.$(p)Once tamed and equipped with a saddle, $(thing)Raiko$() can be very useful flying mounts. Their mount ability allows you to have them pickup other creatures, additionally they will apply the weight effect to the creature when dropped and can swim at a fast speed underwater (but cannot breathe underwater)."
+		},
+		{
+			"type": "crafting",
+			"recipe": "saltwatermobs:raikotreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.4,
+            "entity": "saltwatermobs:roa",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Ferocious shark like beasts that dominate the sea! $(thing)Roas$() create deadly whirlpools around them to pull their prey towards their deadly jaws! The brave or foolish attempt to tame them as mounts.$(br2)Can be tamed and used as mount. Drops $(item)Salmon$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Raiko Treats$() and healed with any cooked meat or fish.$(p)Once tamed and equipped with a saddle, $(item)Roa$() make for excellent water mounts swimming at great speeds and applying water breathing to its rider as well as immunity to effects such as weight. Their mount ability creates a deadly whirlpool sucking other creatures in for you to kill or transport."
+		},
+		{
+			"type": "crafting",
+			"recipe": "saltwatermobs:roatreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.4,
+            "entity": "saltwatermobs:herma",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Giant crabs! They usually keep to themselves unless something gets too close!$(br2)Can be tamed using $(item)Herma Treats$() and healed using any cooked meat. Drops $(item)Fish$(), $(item)Salmon$(), $(item)Clown Fish$(), $(item)Puffer Fish$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.4,
+            "entity": "saltwatermobs:quetzodracl",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Powerful flying pterosaur wyverns with a strong grasp!$(br2)Can be tamed and used as mount. Drops $(item)Bones$(), $(item)Prismarine Shards$(), $(item)Prismarine Crystals$(), $(item)Diamond$(), $(item)Emerald$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Quetzodracl Treats$() and healed with any cooked meat.$(p)Once tamed and equipped with a saddle, $(thing)Quetzodracl$() make for incredible flying mounts. They will grant their rider immunity to the blindness and weight debuffs. Their mount ability (press $(k:Mount Ability)) allows them to pickup mobs or other players!"
+		},
+		{
+			"type": "crafting",
+			"recipe": "saltwatermobs:quetzodracltreat"
+		}
+	]
+}

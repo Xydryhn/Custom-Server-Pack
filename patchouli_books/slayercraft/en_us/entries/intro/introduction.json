@@ -1,0 +1,21 @@
+{
+	"name": "Introduction",
+	"icon": "minecraft:writable_book",
+	"category": "intro",
+	"priority": true,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": " To help you in your journey, this book will introduce you to the wide range of content available in this pack. A variety of technological, magical and exploration mods are available to give each player choices about how to address their challenges in this pack."
+		},
+		{
+			"type": "text",
+			"text": "This pack is optimized towards $(bold)servers$() and we tried to prevent having mods that burden the server too much. It is also made for players which like to play in a somewhat more challenging environment. A variety of monsters is present to make your life more difficult, albeit still providing a reasonable game that is fun to play."
+		},
+		{
+			"type": "text",
+			"text": "Keep in mind that you can and will die from time to time; but a grave will always be generated containing all your hard-earned items. Your death position will be marked on your map, so you will not really lose anything."
+		}
+	]
+}

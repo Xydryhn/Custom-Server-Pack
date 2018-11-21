@@ -1,0 +1,19 @@
+{
+	"name": "Fuel Catalyzer",
+	"icon": "thermalexpansion:augment:513",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(thing)Fuel Catalyzer$() is an augment that increases the amount of energy a dynamo generates from each unit of fuel. Each installed catalyzer will increase energy output by +15%. (multiple can be installed)"
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:augment_28",
+			"text": "Raw materials required: 1 $(item)Electrum Ingot$(), 2 $(item)Redstone$() and 4 $(item)Lead Ingots$()."
+		}
+	]
+}

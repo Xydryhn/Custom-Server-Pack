@@ -1,0 +1,11 @@
+{
+  "name": "Lycanites Mobs",
+  "icon": "lycanitesmobs:soulgazer",
+  "category": "mods",
+  "pages": [
+	{
+		"type": "text",
+		"text": "$(l:https://minecraft.curseforge.com/projects/lycanites-mobs)Lycanites Mobs$() adds a variety of monsters, each with their own natural environment and unique properties. These monsters can turn a beautiful day into a hellish nightmare, but skillful players can use these monsters to their benefit by farming them, summoning them as minions, or even tame them and have them as powerful mount to ride on. Read more about Lycanites Mobs in the Lycanites Mobs category."
+	}
+  ]
+}

@@ -1,0 +1,157 @@
+{
+	"name": "Lycanites: Demon",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "These demonic creatures can usually be found roaming the Nether, some demons are able to ignite their prey or induce wither effects."
+		},
+		{
+			"type": "empty"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "demonmobs:belph",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Wicked natives to the Nether, $(thing)Belphs$() take pleasure in hurling fiery projectiles.$(p)Can be summoned. Drops $(item)Nether Warts$(), $(item)Doomfire Charge$()"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "demonmobs:behemoth",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Tall demonic beasts, $(thing)Behemoth$() throw balls of Hellfire. Shelter is recommended.$(p)Can be summoned. Drops $(item)Hellfire Charge$()"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "demonmobs:pinky",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Relentless demons with a gluttonous hunger for flesh! $(thing)Pinkies$() love to eat Cows, Pigs or Sheep, so why not bring some to the Nether with you and lure the $(thing)Pinkies$() back to your home! $(thing)Pinky Farming$() can be very useful as $(item)Cooked Pinky Meat$() is very useful.$(p)Can be tamed and farmed. Drops $(item)Raw Pinky Meat$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be farmed using live Cows, Pigs or Sheep as breeding 'food'. This mob will not despawn (even on peaceful) unless specified in the config.$(p)Baby Pinkies can be tamed using $(item)Pinky Treats$(). Tamed Pinkies will eventually grow up and remain tamed however they will still attack animals (but not players) on sight unless they are mounted. You can heal $(thing)Pinkies$() by feeding them any cooked meat."
+		},
+		{
+			"type": "text",
+			"text": "Tamed Adult Pinkies can be mounted by equipping them with a saddle (Baby Pinkies cannot be mounted or saddled until they grow up). Pinky Mounts will bite anything you attack if close enough, will protect you from the wither effect and their special ability is Withering Roar where every nearby enemies becomes withered (press $(k:Mount Ability) to use this ability once mounted)."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "demonmobs:trite",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Small insect-like demons with upside down humanoid heads and spindly legs. $(thing)Trites$() can climb and their bite causes a wither effect. $(thing)Trites$() are very lusty creatures and can be found in large grounds.$(p)Drops $(item)String$(), $(item)Spider Eye$(), $(item)Fermented Spider Eye$()"
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "demonmobs:astaroth",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Beware the wrath of the $(thing)Astaroth$()! $(thing)Astaroth$() are large demonic brain like creatures mounted onto a set of mechanical legs with a deadly turret that rapidly fires small green stars. $(thing)Trites$() help maintain $(thing)Astaroth$() and often have a nest within the mechanical legs, thus when an $(thing)Astaroth$() dies, the nest spills open and the $(thing)Trites$() seek revenge!$(p)Drops $(item)Iron$(), $(item)Redstone$(), $(item)Devilstar Charge$()"
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "demonmobs:cacodemon",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large, slothful demons that drift through the air. $(thing)Cacodemons$() fire large demonic blasts of lightning that slowly fly letting off smaller sparks which fly in random directions.$(p)Can be tamed and used as mount. Drops $(item)Gunpowder$(), $(item)Blaze Powder$(), $(item)Ghast Tear$(), $(item)Demonic Lightning Charge$()"
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Cacodemon Treats$() and healed by feeding them any cooked meat.$(p)Once tamed and equipped with a saddle, $(thing)Cacodemons$() can be very deadly flying mounts. Their mount ability allows you to fire their Demonic Lightning Blasts!"
+		},
+		{
+			"type": "crafting",
+			"recipe": "demonmobs:cacodemontreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "demonmobs:rahovart",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "As the lord of the underworld, $(thing)Rahovart$()'s name alone strikes fear and terror into the hearts of even the most evil of beings.$(p)This is a boss mob that is usually summoned via a Boss Event using a Rahovart Altar.$(p)Drops $(item)Blaze Powder$(), $(item)Blaze Rods$(), $(item)Diamonds$(), $(item)Nether Stars$(), $(item)Demonic Soulstones$(), $(item)Demonstone$(), $(item)Demonstone Bricks$(), $(item)Demonstone Tiles$(), $(item)Demon Crystals$()"
+		},
+		{
+			"type": "text",
+			"title": "Battle stages",
+			"text": "This boss has 3 stages.$(p)In all stages, $(thing)Rahovart$() will constantly bombard the area and all players with giant Hellfire balls. Any players that are too high up (flying) will be bombarded with a massive swarm of $(thing)Nether Souls$() so stay low."
+		},
+		{
+			"type": "text",
+			"title": "Phase 1 (100-60% health)",
+			"text": "Summons $(thing)Belphs$() which explode over time then give $(thing)Rahovart$() energy. At full energy casts a Hellfire Wave attack outwards. This attack will remove all buffs so be careful! The goal here is to keep the number of $(thing)Belphs$() low so that $(thing)Rahovart$() cannot unleash Hellfire Wave too often and when he does, run!"
+		},
+		{
+			"type": "text",
+			"title": "Phase 2 (60-20% Health)",
+			"text": "Summons $(thing)Behemoth$() minions which explode over time and give $(thing)Rahovart$() energy. Summons $(thing)Belph$() minions that no longer explode. At full energy casts Hell Wall, rotating 360 degrees. This attack will remove all buffs so be careful! Like phase one, keep the number of $(thing)Behemoth$() low to reduce the number of Hellfire Walls and when the walls are created, run around $(thing)Rahovart$() in a full circle away from the wall. The $(thing)Belphs$() don't matter but can be harmful."
+		},
+		{
+			"type": "text",
+			"title": "Phase 3 (20-0% Health)",
+			"text": "Summons $(thing)Belph$(), $(thing)Behemoth$() and $(thing)Nether Soul$() minions, none explode over time. Constantly gains energy. At full energy, creates a static Hellfire Barrier at a random angle. This attack will remove all buffs so be careful! Killing 2 summoned $(thing)Belphs$() or $(thing)Nether Souls$() or 1 $(thing)Behemoth$() will lower a barrier. The goal here is to not let $(thing)Rahovart$() create too many barriers as you may run out of combat space."
+		},
+		{
+            "type": "entity",
+			"scale": 0.6,
+            "entity": "demonmobs:asmodeus",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "$(thing)Asmodeus$() is known to be the mastermind behind any form of demonic invasion, sometimes even $(thing)Rahovart$() falls in line. This is a boss mob that is usually summoned via a Boss Event using an Asmodeus Altar. This boss has 3 Battle Phases.$(p)Drops $(item)Iron Ingots$(), $(item)Gold Ingots$(), $(item)Redstone Dust$(), $(item)Diamonds$(), $(item)Nether Stars$(), $(item)Demonic Soulstones$(), $(item)Demonstone$(), $(item)Demonstone Bricks$(), $(item)Demonstone Tiles$(), $(item)Demon Crystals$()"
+		},
+		{
+			"type": "text",
+			"title": "Asmodeus Battle",
+			"text": "Don't Fly, Avoid The Giant Hellfire Attacks$(li)Phase 1: Kill $(thing)Belphs$()$(li)Phase 2: Kill $(thing)Behemoth$()$(li)Phase 3: Execution$(p)Any players that are too high up (flying) will be bombarded with a massive swarm of $(thing)Nether Souls$() so stay low."
+		},
+		{
+			"type": "text",
+			"title": "All phases",
+			"text": "$(thing)Asmodeus$() has a deadly demonic gatling gun mounted under it's platform, avoid this at all costs as it will strip your buffs! It will fire for a few seconds before overheating for around 10 seconds (smoke will come from the gun), this may be your time to strike!$(p)$(thing)Asmodeus$() will jump around it's arena in pursuit of it's current primary target (usually the last player to attack it), there is no escape!"
+		},
+		{
+			"type": "text",
+			"title": "Phase 1 (100-60% Health)",
+			"text": "Summons $(thing)Trites$() which have a nasty bite that causes wither. Every 10 seconds or so $(thing)Asmodeus$() will unleash a circular burst of Devilstar blasts outwards."
+		},
+		{
+			"type": "text",
+			"title": "Phase 2 (60-20% Health)",
+			"text": "Summons giant $(thing)Astaroth$() which will power a shield making $(thing)Asmodeus$() invulnerable, these must be defeated in order to damage $(thing)Asmodeus$(). Remember that $(thing)Astaroth$() will explode into a swarm of $(thing)Trites$() on death!"
+		},
+		{
+			"type": "text",
+			"title": "Phase 3 (20-0% Health)",
+			"text": "Constantly summons $(thing)Astaroth$() at a slow rate which will heal $(thing)Asmodeus$() if it is below 20% health. Constantly summons $(thing)Cacodemons$(), too many can be overwhelming so keep their numbers under control."
+		}
+	]
+}

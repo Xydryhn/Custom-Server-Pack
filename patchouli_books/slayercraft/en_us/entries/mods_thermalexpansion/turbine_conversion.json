@@ -1,0 +1,23 @@
+{
+	"name": "Turbine Conversion",
+	"icon": "thermalexpansion:augment:640",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(thing)Turbine Conversion$() is an augment that changes a $(l:mods_thermalexpansion/steam_dynamo)Steam Dynamo$() to work on steam supplied from an external source."
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:augment_32"
+		},
+		{
+			"type": "text",
+			"title": "Mechanics",
+			"text": "When $(thing)steam$() is sent into a $(l:mods_thermalexpansion/steam_dynamo)Steam Dynamo$() with a $(l:mods_thermalexpansion/turbine_conversion)Turbine Conversion$(), 2RF is generated for every millibucket of steam. This rate cannot be improved with other augments. Also, when the dynamo is inactive, steam will gradually dissipate, causing energy loss while the dynamo is inactive."
+		}
+	]
+}

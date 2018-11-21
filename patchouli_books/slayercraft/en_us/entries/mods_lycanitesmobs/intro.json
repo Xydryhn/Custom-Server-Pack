@@ -1,0 +1,13 @@
+{
+	"name": "Introduction",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": true,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Lycanites Mobs adds a variety of monsters, each with their own natural environment and unique properties. These monsters can turn a beautiful day into a hellish nightmare, but skillful players can use these monsters to their benefit by farming them, summoning them as minions, or even tame them and have them as powerful mount to ride on."
+		}
+	]
+}

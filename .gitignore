@@ -4,9 +4,17 @@
 # We do want config and scripts, though
 !/config
 !/scripts
+!/patchouli_books
 
 # These files should be here too
 !/README.md
 !/changelog.txt
 !/SlayerCraft
 !/.gitignore
+
+# Clean up lycanites mobs changelog spam, except for customized files
+/config/lycanitesmobs
+!/config/lycanitesmobs/shadowmobs-spawning.cfg
+
+# Clean up generated recipes configs
+/config/enderio/recipes

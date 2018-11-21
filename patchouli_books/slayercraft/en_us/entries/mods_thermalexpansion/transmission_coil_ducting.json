@@ -1,0 +1,18 @@
+{
+	"name": "Transmission Coil Ducting",
+	"icon": "thermalexpansion:augment:514",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "$(thing)Transmission Coil Ducting$() is an augment that allows items and fluids to enter a dynamo through its coil, which can normally only emit Redstone Flux."
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:augment_29"
+		}
+	]
+}

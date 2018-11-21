@@ -1,0 +1,83 @@
+{
+	"name": "Lycanites: Freshwater",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Creatures of pure water, found all over, in lakes, rivers and even the rain and clouds!"
+		},
+		{
+			"type": "empty",
+			"text": ""
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "freshwatermobs:strider",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "These giant amphibious creatures some what resemble a shrimp. They are usually found in large lakes or rivers where they are feared for their dreadful tentacle claws from which they ensnare and consume their victims.$(br2)Can be lured and tamed using $(item)Strider Treats$(). Tamed Striders can be healed by feeding them any cooked meat. Drops $(item)Fish$() and $(item)Puffer Fish$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "freshwatermobs:silex",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Beautiful fish with scales encrusted with $(item)Lapis Lazuli$(). $(thing)Silex$() are known to eat the Lapis off of each other's scales as well as natural formations from rocks.$(br2)Can be bred and lured using $(item)Lapis lazuli$(). Drops $(item)Raw Silex Meat$() (Cooked if burning), $(item)Lapis Lazuli$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.4,
+            "entity": "freshwatermobs:thresher",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Giant majestic water beasts with a massive appetite and powerful fins capable of creating huge whirlpools to pull in their prey! Very dangerous!$(br2)Can be tamed and used as mount. Drops $(item)Fish$(), $(item)Prismarine Shards$(), $(item)Prismarine Crystals$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Thresher Treats$() and healed with any cooked meat or fish.$(br2)Once tamed and equipped with a saddle, $(thing)Threshers$() are incredibly powerful but large water mounts swimming at great speeds and applying water breathing to its rider as well as immunity to effects such as paralysis and penetration. Their mount ability creates a massive whirlpool sucking other creatures in and whipping them into the air for you to kill."
+		},
+		{
+			"type": "crafting",
+			"recipe": "freshwatermobs:threshertreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "freshwatermobs:ioray",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Beautiful creatures that gracefully swim at a very fast rate, they have a large collection of precious gems on their back but also a deadly Water Jet attack and they are hostile and will actively hunt.$(br2)Can be tamed and used as mount. Drops $(item)Fish$(), $(item)Prismarine Shards$(), $(item)Prismarine Crystals$(), $(item)Diamond$() (rare), $(item)Lapis$(), $(item)Water Jet Charge$()."
+		},
+		{
+			"type": "text",
+			"text": "Can be tamed with $(item)Ioray Treats$() and healed with any cooked meat or fish.$(br2)Once tamed and equipped with a saddle, $(thing)Ioray$() are incredibly fast mounts with a small size and apply water breathing to its rider as well as immunity to effects such as paralysis and penetration, making them ideal for underwater bases. Their mount ability fires a deadly high power Water Jet which applies penetration allowing for incredibly high focused damage."
+		},
+		{
+			"type": "crafting",
+			"recipe": "freshwatermobs:ioraytreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "freshwatermobs:abaia",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Long eel-like fish that emit electric sparks zapping any near by threat.$(br2)Can be summoned. Drops $(item)Fish$() and $(item)Glowstone Dust$()."
+		}
+	]
+}

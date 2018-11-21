@@ -1,0 +1,120 @@
+{
+	"name": "Lycanites: Desert",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "These creatures can be found in hot and dry places such as the desert or mesa. Some desert creatures will induce hunger effects as well as weakness."
+		},
+		{
+			"type": "empty",
+			"text": ""
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "desertmobs:sutiramu",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Aggressive giant scorpions with a hunger inducing venom.$(br2)Can be summoned. Drops $(item)Flint$(), $(item)Iron Ore$(), $(item)Gold Nugget$(), $(item)Spider Eye$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "desertmobs:crusk",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Deep under the desert sands, these giant worms dig around listening for prey, once they find their victim, they rise up from the ground and strike with a powerful bite. $(thing)Crusks$() have a large amount of health but aren't too fast to outrun, they also don't do well in small spaces and can't dig through solid rock or walls.$(br2)$(thing)Baby Crusks$() can be tamed. Drops $(item)Flint$(), $(item)Clay$(), $(item)Iron Ore$(), $(item)Gold Ore$()."
+		},
+		{
+			"type": "text",
+			"text": "$(thing)Baby Crusks$() can be tamed by luring them and feeding them $(item)Crusk Treats$() and can be healed by feeding them any cooked meat. Large Adult $(thing)Crusks$() will attack you on sight as normal and can't be tamed."
+		},
+		{
+			"type": "crafting",
+			"recipe": "desertmobs:crusktreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "desertmobs:clink",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Metallic life forms with a rusty, rocky outer shell. $(thing)Clinks$() are able to grow metal blades onto the edge of their arms and then flick slices of the blades at their enemies. Take heed if you hear their metallic cries.$(br2)Can be summoned. Drops $(item)Throwing Scythe$(), $(item)Iron Ingot$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "desertmobs:joust",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Complex animals that are native to hot, dry areas. $(thing)Jousts$() are herd animals and come in two forms: Standard $(thing)Joust$()'s are passive but will bite back if attacked. $(thing)Alpha Jousts$() (larger, wider crest, brightly colored) are rarer but very dangerous and will attack on sight, any nearby Standard $(thing)Jousts$() will herd towards them and will attack what they attack. $(thing)Alpha Jousts$() are very territorial and will duel with each other for land, ignoring anything else nearby."
+		},
+		{
+			"type": "text",
+			"text": "Can be bred. Drops $(item)Raw Joust Meat$() (Cooked if burning).$(br2)Non-alpha $(thing)Jousts$() can be lured and bred with $(item)Cactus Green Dye$(), baby Jousts will sometimes grow into Alphas so be careful!"
+		},
+		{
+			"type": "empty"
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "desertmobs:erepede",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Wild insect-like rock creatures that roam hot and dry terrain. $(thing)Erepedes$() can be very dangerous creatures. They like to hunt $(thing)Jousts$() and will attack $(thing)Crusks$() on sight too. $(thing)Erepedes$() spit out a dangerous mud shot that weakens the target.$(br2)Can be tamed and used as mount. Drops $(item)Flint$(), $(item)Mudshot Charge$()."
+		},
+		{
+			"type": "text",
+			"text": "Tamed $(thing)Erepedes$() can be used as mounts, you must equip them with a saddle first. $(thing)Erepede$() mounts are immune to cactus damage and also prevent the rider from being weakened. Using their ability will cause them to shoot mud shots where you are aiming (press $(k:Mount Ability) to use this ability once mounted). They also run much faster across sand when mounted."
+		},
+		{
+			"type": "crafting",
+			"recipe": "desertmobs:erepedetreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "desertmobs:gorgomite",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Small rock beetles that are never alone! They can be killed easily but will quickly summon allies to help them, so kill them fast! They also have a 10% chance to summon an ally on death!$(br2)Drops $(item)Sandstone$(), $(item)Stone$(), $(item)Flint$(), $(item)Iron Ore$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "desertmobs:manticore",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Vicious bat-like beasts with scorpion like tails. Their sting will leave you feeling very weak and hungry! They like to hunt down $(thing)Gorgomites$() and other small prey.$(br2)Can be summoned. Drops $(item)Flint$(), $(item)Stone$(), $(item)Iron Ore$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "desertmobs:cryptzombie",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "At night, $(thing)Crypt Zombies$() crawl up from deep under the desert sands to stalk the night. $(thing)Crypt Zombies$() act like regular Zombies but don't burn in daylight and their attacks will cause fatigue making you hungry. Like regular Zombies, on Hard Difficulty, $(thing)Crypt Zombies$() will break down doors and will convert villagers.$(br2)Drops $(item)Rotten Flesh$(), $(item)Gold Nugget$()."
+		}
+	]
+}

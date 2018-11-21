@@ -1,0 +1,31 @@
+{
+	"name": "Crafting Materials",
+	"icon": "thermalfoundation:material:513",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "This entry describes several crafting materials used in Thermal Expansion and Thermal Foundation."
+		},
+		{
+			"type": "crafting",
+			"title": "Reception Coil",
+			"recipe": "thermalfoundation:material_83",
+			"text": "The $(item)Redstone Reception Coil$() is used in a wide variety of machines that consume RF."
+		},
+		{
+			"type": "crafting",
+			"title": "Transmission Coil",
+			"recipe": "thermalfoundation:material_84",
+			"text": "The $(item)Redstone Transmission Coil$() is used in RF producting machines such as dynamos."
+		},
+		{
+			"type": "crafting",
+			"title": "Conductance Coil",
+			"recipe": "thermalfoundation:material_85",
+			"text": "The $(item)Redstone Conductance Coil$() is used in $(item)Power Cells$() and various augments."
+		}
+	]
+}

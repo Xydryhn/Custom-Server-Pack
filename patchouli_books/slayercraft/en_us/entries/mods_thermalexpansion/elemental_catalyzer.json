@@ -1,0 +1,18 @@
+{
+	"name": "Elemental Catalyzer",
+	"icon": "thermalexpansion:augment:688",
+	"category": "mods_thermalexpansion",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "The $(thing)Elemental Catalyzer$() is an augment that increases the amount of Redstone Flux a $(l:mods_thermalexpansion/reactant_dynamo)Reactant dynamo$() generates from reactions between elemental fluids and dusts. When installed, the dynamo will quintuple (x5) maximum power output and increase RF per reaction by 25%. However, it will only accept elemental reactions, such as $(item)Blazing Pyrotheum$() with $(item)Cryotheum Dust$()."
+		},
+		{
+			"type": "crafting",
+			"title": "Crafting",
+			"recipe": "thermalexpansion:augment_37"
+		}
+	]
+}

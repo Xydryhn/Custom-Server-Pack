@@ -1,0 +1,94 @@
+{
+	"name": "Lycanites: Forest",
+	"icon": "lycanitesmobs:soulgazer",
+	"category": "mods_lycanitesmobs",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "Lycanites Forest mobs spawn in forests and forest-like biomes. The deep forest harbours many secrets..."
+		},
+		{
+			"type": "empty", "text": ""
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "forestmobs:ent",
+			"text": "",
+			"offset": 0.5
+        },
+		{
+			"type": "text",
+			"text": "Deep within the forest, these unique trees raise their roots and wander about. They will protect their forest from any who oppose them, that includes you! Axes and Fire does double damage but these creatures are also capable of draining health back when attacking!$(br2)Can be summoned. Drops $(item)Log$(), $(item)Stick$() ($(item)Charcoal$() when burning), $(item)Wheat Seeds$(), $(item)Pumpkin Seeds$(), $(item)Melon Seeds$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "forestmobs:treant",
+			"text": "",
+			"offset": 4
+        },
+		{
+			"type": "text",
+			"text": "When a forest feels truly threatened, ancient trees lift their roots from the ground and split the base of their trunk into legs, branches descend down into arms and a pair of eyes drill their way through the bark. $(thing)Treants$() are significantly larger than $(thing)Ents$() and are a rare sight to behold, they aren't the deadliest forest creatures but they are a force to be reckoned with."
+		},
+		{
+			"type": "text",
+			"text": "$(thing)Treants$() have a 50% chance to paralyse their target when attacking and will also drain health from their enemy! Like $(thing)Ents$(), $(thing)Treants$() are weak to fire and axes. $(thing)Ents$() and $(thing)Treants$() will support each other in combat.$(br2)Drops $(item)Log$(), $(item)Stick$() ($(item)Charcoal$() when burning), $(item)Wheat Seeds$(), $(item)Pumpkin Seeds$(), $(item)Melon Seeds$()."
+		},
+		{
+			"type": "empty"
+		},
+		{
+            "type": "entity",
+			"scale": 0.7,
+            "entity": "forestmobs:shambler",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Deep in the forest undergrowth, $(thing)Shamblers$() grow to wreak havoc! Their touch can cause paralysis and contact with rain or water will heal them.$(br2)Can be tamed using $(item)Shambler Treats$() and then healed using any Vegetable ($(item)Wheat$(), $(item)Carrots$() and $(item)Potatoes$()).$(br2)Drops $(item)Log$(), $(item)Stick$() ($(item)Charcoal$() when burning), $(item)Vines$(), $(item)Wheat Seeds$(), $(item)Pumpkin Seeds$(), $(item)Melon Seeds$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "forestmobs:arisaur",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large plant like sauropods. $(thing)Arisaurs$() are peaceful and normally graze from trees. They can be lured and farmed using vegetables. Do they count as meat though?$(br2)Drops $(item)Arisaur Meat$() and $(item)Apples$()."
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "forestmobs:warg",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Large wolf like beasts with a vicious bite! They are known to hunt in packs and have a deadly leap that briefly paralyses anything near their landing location. When tamed they make fantastic mounts!$(br2)Drops $(item)Leather$(), $(item)Bone$()."
+		},
+		{
+			"type": "text",
+			"text": "$(thing)Wargs$() can be tamed by feeding it $(item)Warg Treats$() and healed with any cooked meat. Once tamed and equipped with a saddle, $(item)Wargs$() can become very deadly mounts. Their ability allows them to leap forwards (press $(k:Mount Ability) to use this ability once mounted). They will take no falling damage. Upon landing from a leap, all nearby enemies will be briefly paralyzed!"
+		},
+		{
+			"type": "crafting",
+			"text": "",
+			"recipe": "forestmobs:wargtreat"
+		},
+		{
+            "type": "entity",
+			"scale": 0.5,
+            "entity": "forestmobs:calpod",
+			"text": ""
+        },
+		{
+			"type": "text",
+			"text": "Nasty insects that can sometimes be found lurking in forest undergrowth as well as inside trees, once angered they will call upon additional $(thing)Calpods$() so kill them off fast!$(br2)Drops $(item)Logs$(), $(item)Sticks$(), $(item)Spider Eyes$(), $(item)Wheat Seeds$(), $(item)Pumpkin Seeds$(), $(item)Melon Seeds$()."
+		}
+	]
+}

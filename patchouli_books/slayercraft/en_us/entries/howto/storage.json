@@ -1,0 +1,47 @@
+{
+	"name": "Storage",
+	"icon": "minecraft:chest",
+	"category": "howto",
+	"priority": false,
+	"read_by_default": false,
+	"pages": [
+		{
+			"type": "text",
+			"text": "An inventory gets pretty full pretty quick, and that's why Minecraft has chests. Soon enough you discover a chest doesn't hold much and you make a double chest. Then come all these mods burdening you with a seemingly infinite range of items, and that double chest? You could waste a ton of time browsing through all of them to find just what you need. Luckily for you, there are better options..."
+		},
+		{
+			"type": "text",
+			"title": "Storage Drawers",
+			"text": "$(thing)Storage Drawers$() provides you with a range of $(italic)badum-tsss$() $(item)Storage Drawers$()! Drawers come in 3 variants: holding 4 different items, holding 2 different items and holding a single item type. Each drawer will display the item it is storing, making it for a clear system to arrange a limited number of items. Don't underestimate the amount of items that can be held in a drawer: they can be upgraded"
+		},
+		{
+			"type": "text",
+			"text": "to massively increase storage capacity. Drawers also easily integrate into your sorting and automation systems using a $(item)Drawer Controller$()."
+		},
+		{
+			"type": "text",
+			"title": "Actually Additions",
+			"text": "Storage Drawers are nice if you have a limited variety of items, but what if you have a bit of everything? In this case, a $(item)Storage Crate$() can help you out. Crates are like chests, except they store way more items. Even a $(item)Small Storage Crate$() contains more than 4 chests worth of items in the space of a single block. $(item)Medium Storage Crates$() contain twice as much as the small ones and $(item)Large Storage Crates$() store three times the amount!"
+		},
+		{
+			"type": "text",
+			"title": "Iron Chests",
+			"text": "If you want something more pretty than a Crate, you can also make an $(item)Iron Chest$(). Or a $(item)Copper Chest$(), $(item)Silver Chest$(), $(item)Gold Chest$() or $(item)Diamond Chest$()! Or a $(item)Crystal Chest$(), if you want something that can show off its contents. Bigger $(item)Shulker Boxes$() are also available through this mod."
+		},
+		{
+			"type": "text",
+			"title": "Ender Storage",
+			"text": "All those chests are nice, but they're at home and you're not. Fix this problem with $(item)Ender Chests$()! $(item)Ender Chests$() with the same color combination will synchronize their contents. Not only can they be accessed remotely using an $(item)Ender Pouch$(), they can also simplify your logistics system, and they can be made accessibly by only you using a diamond."
+		},
+		{
+			"type": "text",
+			"title": "Industrial Foregoing",
+			"text": "What are you going to do with all that cobblestone? If you want to keep an infinite amount (let's say 4 billion is infinite) of the same item, you can use a $(item)Black Hole Unit$() for that."
+		},
+		{
+			"type": "text",
+			"title": "Applied Energistics 2",
+			"text": "The sufficiently advanced player may need more than just chests and storage drawers to store items. If you need something that is easy to use and you don't mind the price (and efforts), setting up an Applied Energistics system may well be the way to go. Not only can you search for the item you need, it can also be combined with an autocrafting system as well."
+		}
+	]
+}
